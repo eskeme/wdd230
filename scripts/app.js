@@ -5,3 +5,5 @@ h1.textContent = 'Justine Insong';
 
 copyright.textContent = `© ${new Date().getFullYear()}`;
 let quantity = document.querySelector('#q').value;
+
+alert(document.lastModified);
