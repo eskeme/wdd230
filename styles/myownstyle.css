@@ -64,12 +64,12 @@ h1, li, p {
   .footer-wrap {
     font-size: 15px;
     color: white;
-    padding-left: 50px;
+    text-align: center;
+    padding: 10px;
     font-family: "Lucida Console", "Courier New", monospace;
   }
 
   .updated {
     font-size: 13px;
     color: yellow;
-    margin-left: 70px;
   }
