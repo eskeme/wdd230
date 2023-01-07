@@ -67,3 +67,9 @@ h1, li, p {
     padding-left: 50px;
     font-family: "Lucida Console", "Courier New", monospace;
   }
+
+  .updated {
+    font-size: 13px;
+    color: yellow;
+    margin-left: 70px;
+  }
