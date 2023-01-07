@@ -1,0 +1,68 @@
+.page-wrap {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+  }
+
+h1, li, p {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.header-part, .footer-wrap {
+    border-radius: 15px;
+    background-color: #49a127;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #000000;
+    padding: 20px 30px 20px;
+  }
+
+.header-part {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+  .profile-image {
+    width: 70%;
+    box-shadow: 0px 0px 10px #000000;
+  }
+
+  .full-name h1 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 10px #000000;
+    margin-right: 20px;
+    margin-top: 60px;
+  }
+
+  .content h1 {
+    font-size: 25px;
+    text-shadow: 0px 0px 10px #000000;
+    margin-left: 20px;
+  }
+
+  .lessons {
+    max-width: 400px;
+    margin-left: 20px;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    border-top: 1px solid black;
+    padding-bottom:10px ;
+    margin-bottom: 1px;
+  }
+
+  .lessons li {
+    padding: 5px;
+  }
+
+  .content p {
+    font-size: 12px;
+    padding-left: 18px;
+    font-style: italic;
+  }
+
+  .footer-wrap {
+    font-size: 15px;
+    color: white;
+    padding-left: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
