@@ -58,10 +58,10 @@ h1, li, p {
     font-size: 12px;
     padding-left: 18px;
     font-style: italic;
+    padding-bottom: 20px;
   }
 
   .footer-wrap {
-    margin-top: 30px;
     font-size: 15px;
     color: white;
     padding-left: 50px;
