@@ -63,7 +63,7 @@ h1, li, p {
 
   .footer-wrap {
     font-size: 18px;
-    color: white;
+    color: orange;
     text-align: center;
     padding: 10px;
     font-family: "Lucida Console", "Courier New", monospace;
@@ -71,5 +71,5 @@ h1, li, p {
 
   .updated {
     font-size: 18px;
-    color: yellow;
+    color: purple;
   }
