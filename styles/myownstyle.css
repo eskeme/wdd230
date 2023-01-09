@@ -63,13 +63,13 @@ h1, li, p {
 
   .footer-wrap {
     font-size: 22px;
-    color: white;
+    color: #FF00FF;
     text-align: center;
     padding: 10px;
     font-family: "Lucida Console", "Courier New", monospace;
   }
 
   .updated {
-    font-size: 20px;
+    font-size: 24px;
     color: yellow;
   }
