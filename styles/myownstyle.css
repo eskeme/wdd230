@@ -62,7 +62,7 @@ h1, li, p {
   }
 
   .footer-wrap {
-    font-size: 14px;
+    font-size: 26px;
     color: white;
     text-shadow: 0px 0px 10px #000000;
     text-align: center;
@@ -71,6 +71,6 @@ h1, li, p {
   }
 
   .updated {
-    font-size: 12px;
+    font-size: 24px;
     color: purple;
   }
