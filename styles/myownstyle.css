@@ -63,7 +63,8 @@ h1, li, p {
 
   .footer-wrap {
     font-size: 18px;
-    color: #9f2305;
+    color: white;
+    text-shadow: 0px 0px 10px #000000;
     text-align: center;
     padding: 10px;
     font-family: "Lucida Console", "Courier New", monospace;
