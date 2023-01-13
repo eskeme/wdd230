@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sofia+Sans+Condensed:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sofia+Sans+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200&display=swap');
 
 h1, h2 {
     text-align: center;
@@ -27,8 +28,6 @@ header h2 {
 }
 
 figure {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Sofia Sans Condensed', sans-serif;
     background-color: #eeeeee;
     border-radius: 15px 15px 0px 0px;
     border-style: solid;
@@ -38,6 +37,8 @@ figure {
 }
 
 .main-page-grid h3 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
     color: white;
     margin: 0;
     padding-top: 5px;
@@ -51,11 +52,13 @@ figure {
 .main-page-grid p {
     margin: 0;
     padding: 0px 10px 5px 10px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
 }
 
 .main-page-grid a {
     margin: 0;
     padding-left: 10px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
 }
 
 .image-holder {
