@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sofia+Sans+Condensed:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sofia+Sans+Condensed:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 h1, h2 {
     text-align: center;
@@ -47,18 +46,20 @@ figure {
     border-radius: 14px 14px 0px 0px;
     padding: 10px;
     margin-bottom: 5px;
+    font-size: 24px;
 }
 
 .main-page-grid p {
     margin: 0;
     padding: 0px 10px 5px 10px;
-    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #383838;
 }
 
 .main-page-grid a {
     margin: 0;
     padding-left: 10px;
-    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .image-holder {
