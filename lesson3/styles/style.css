@@ -1,0 +1,18 @@
+.image-holder {
+    background-color: #1c3eb0;
+    position: relative;
+}
+
+.image-holder img {
+    opacity: 50%;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li a {
+    padding-right: 20px;
+}
