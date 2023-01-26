@@ -165,7 +165,7 @@ main {
     margin-bottom: 10px;
 }
 
-.spotlight1, .spotlight2, .spotlight3 {
+.spotlight1, .spotlight2, .spotlight3, .join_here {
     width: 95%;
     margin: auto;
     background-color: #eee;
@@ -174,7 +174,11 @@ main {
     height: 80px;
 }
 
-.spotlight3, .news-update {
+.join_here {
+    display: none;
+}
+
+.spotlight3 {
     display: none
 }
 
