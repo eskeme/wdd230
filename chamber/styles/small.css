@@ -32,7 +32,7 @@ p, nav {
 #logo {
     display: flex;
     margin: auto;
-    margin-left: -5px;
+    margin-left: 5px;
 }
 
 #logo img {
@@ -151,35 +151,27 @@ nav ul.open {
 }
 
 main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     padding: 10px;
 }
 
-.center-column div, .left-column div, .right-column {
-    width: 95%;
-    margin: auto;
-    background-color: #eee;
-    border: thin solid rgba(0,0,0,0.3);
-    padding: 20px;
-    height: 200px;
-    margin-top: 15px;
-    margin-bottom: 10px;
+main .featured, .event, .join_here, .weather, .news-update, .right-column  {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 225px;
 }
 
-.spotlight1, .spotlight2, .spotlight3, .join_here {
-    width: 95%;
-    margin: auto;
-    background-color: #eee;
-    border: thin solid rgba(0,0,0,0.3);
-    padding: 5px;
-    height: 80px;
+.right-column div {
+    border: 1px solid black;
+    padding: 10px;
+    height: 100px;
 }
 
-.join_here {
+.spotlight3, .join_here {
     display: none;
-}
-
-.spotlight3 {
-    display: none
 }
 
 footer {

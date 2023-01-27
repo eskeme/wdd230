@@ -1,19 +1,16 @@
 @media only screen and (min-width: 35rem) {
-    main {
-        display: grid;
-        grid-template-rows: 1fr;
+    .join_here {
+        display: flex;
     }
 
     .right-column {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
     }
 
     .right-column div {
-        height: 150px;
+        width: 50%;
+        margin: 10px;
+        height: 90%;
     }
 
-    .join_here {
-        display: block;
-    }
 }

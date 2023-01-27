@@ -9,15 +9,41 @@
         margin-top: -60px;
     }
 
-    .join_here {
-        display: flex;
+    nav ul li a {
+        border: 0;
+    }
+
+    .contact {
+        border: 0;
+    }
+
+    #date_today {
+        margin-top: 18px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .right-column {
+        display: block;
+        grid-column-start: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .right-column div {
         width: 95%;
-        margin: auto;
-        background-color: #eee;
-        border: thin solid rgba(0,0,0,0.3);
-        padding: 20px;
-        height: 200px;
-        margin-top: 15px;
-        margin-bottom: 10px;
+    }
+
+    .spotlight3 {
+        display: block;
+    }
+
+    .featured {
+        grid-column: 2 / 2;
+        grid-row: 1 /3 ;
     }
 }
