@@ -54,6 +54,8 @@
 
     .main_footer {
         display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .footer_logo {
@@ -67,5 +69,17 @@
 
     .address p, h2 {
         display: flex;
+    }
+
+    .address h2 {
+        text-align: left;
+    }
+
+    .contact_footer {
+        margin-right: 20px;
+    }
+
+    .address p {
+        text-align: left;
     }
 }
