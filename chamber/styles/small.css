@@ -152,22 +152,22 @@ nav ul.open {
 
 main {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     padding: 10px;
+    height: 830px;
 }
 
 main .featured, .event, .join_here, .weather, .news-update, .right-column  {
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
-    height: 225px;
 }
 
 .right-column div {
     border: 1px solid black;
     padding: 10px;
-    height: 100px;
+    height: 50%;
 }
 
 .spotlight3, .join_here {
@@ -217,7 +217,7 @@ footer p, a {
     width: 40px;
 }
 
-.footer_info {
+.footer_info_small {
     margin: auto;
     width: 95%;
     color: white;
@@ -228,7 +228,31 @@ footer p, a {
     border-top: thin solid rgba(255,255,255,0.3);
 }
 
-.footer_info p, h3 {
+.footer_info_small p, h3 {
     margin-top: 2px;
     margin-bottom: 2px;
+}
+
+.footer_info_medium {
+    display: none;
+    margin: auto;
+    width: 95%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 90%;
+    padding: 10px;
+    border-top: thin solid rgba(255,255,255,0.3);
+}
+
+.footer_info_large {
+    display: none;
+    margin: auto;
+    width: 95%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 90%;
+    padding: 10px;
+    border-top: thin solid rgba(255,255,255,0.3);
 }
