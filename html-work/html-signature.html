@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+        font-family: 'Visuelt Pro';
+        src: url("fonts/VisueltPro-Bold.ttf");
+
+        }
+
+        @font-face {
+            font-family: 'Visuelt Pro Regular';
+            src: url("fonts/VisueltPro-Regular.ttf");
+        }   
+
+        .main-absolute {
+        position: absolute;
+        top: 0;
+        left: 0;
+        }
+
+        .main-display {
+            display: flex;
+            /*background-image: url("background-signature.png");*/
+            background-repeat: no-repeat;
+            background-size: 600px 300px;
+        }
+
+        h1, h3 {
+            font-family: 'Visuelt Pro', sans-serif;
+            font-size: 28px;
+        }
+
+        h2 {
+            font-family: 'Visuelt Pro Regular', sans-serif;
+            font-size: 12px;
+            margin-top: -16px;
+            letter-spacing: 1px;;
+        }
+
+        .contact-links {
+            width: 600px;
+            margin-top: -8px;
+        }
+
+        ul {
+            margin-left: -50px;
+        }
+
+        li {
+            list-style-type: none;
+            font-family: 'Visuelt Pro Regular', sans-serif;
+            font-size: 10px;
+            padding: 2px;
+        }
+
+        li img {
+            width: 12px;
+            padding-left: 10px;
+        }
+
+        ul li a {
+            text-decoration: none;
+        }
+
+        .contact-links {
+            display: flex;
+        }
+
+        button {
+            border: none;
+            font-size: 12px;
+            letter-spacing: 1px;;
+            padding: 12px;
+            font-family: 'Visuelt Pro', sans-serif;
+            width: 150px;
+            background-color: #0a46b4;
+            color: white;
+            cursor:pointer;
+        }
+
+        button a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .right-contacts {
+            margin-top: 18px;
+            margin-left: 50px;
+        }
+
+        .social-media {
+            margin: 0;
+            padding-top: 5px;
+            padding-left: 16px;
+        }
+
+        .social-media img {
+            padding-left: 5px;
+            width: 20px;
+        }
+        .branding-logos {
+            margin-top: 10px;
+            margin-left: -30px;
+        }
+
+        .colab {
+            width: 22%;
+        }
+
+        .aime {
+            width: 7%;
+            margin-left: 20px;
+        }
+
+        .branding-graphic {
+            width: 400px;
+            display: flex;
+            padding: 10px;
+            margin-top: -18px;
+            margin-left: -20px;
+        }
+
+        .branding-graphic img {
+            width: 25px;
+            height: 25px;
+            margin-top: 16px;
+        }
+
+        .branding-graphic h3 {
+            color: white;
+            font-size: 14px;
+            margin-top: 22px;
+            margin-left: 8px;
+            letter-spacing: 1px;;
+        }
+        
+        .left-column {
+            width: 200px;
+        }
+
+        .left-column img {
+            width: 140px;
+            margin-top: 30px;
+            margin-left: 12px;
+            border: 8px solid #0a46b4;
+            border-radius: 50%;
+        }
+
+        .footer p {
+            font-family: 'Visuelt Pro Regular', sans-serif;
+        }
+        .background-image {
+            width: 600px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+        }
+        .background-image > img {
+            max-width: 100%
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="background-image">
+        <img src="background-signature.png">
+    </div>
+    <div class="main-absolute">
+    <div class="main-display">
+        <div class="left-column">
+            <img src="andres-new.png">
+        </div>
+        <div class="right-column">
+            <div class="title">
+                <h1>Andres J. Munar</h1>
+                <h2>OWNER & PRESIDENT</h2>
+            </div>
+            <div class="contact-links">
+                <div class="left-contacts">
+                    <ul>
+                        <li><img src="phone.png">&nbsp;&nbsp;&nbsp;1-800-280-2022</li>
+                        <li><img src="fax.png">&nbsp;&nbsp;&nbsp;1-800-587-0353</li>
+                        <li><img src="email.png">&nbsp;&nbsp;&nbsp;Andres@colablending.com</li>
+                        <li><img src="website.png">&nbsp;&nbsp;&nbsp;www.colablending.com</li>
+                    </ul>
+                </div>
+                <div class="right-contacts">
+                    <a href="#"><button>APPLY ONLINE</button></a>
+                        <div class="social-media">
+                            <a href="#"><img src="facebook.png" alt="Facebook logo"></a>
+                            <a href="#"><img src="instagram.png" alt="Instagram logo"></a>
+                            <a href="#"><img src="youtube.png" alt="Youtube logo"></a>
+                            <a href="#"><img src="linkedin.png" alt="Linkedin logo"></a>
+                        </div>
+                </div>
+            </div>
+            <div class="brands">
+                <div class="branding-logos">
+                <img class="colab" src="colab-lending.png" alt ="Co/LAB Lending logo">
+                <img class="aime" src="aime.png" alt="AIME logo">
+                </div>
+                <div class="branding-graphic">
+                    <img src="aimeaward.png" alt="Aime Award logo">
+                    <h3>2023 Regional Brokerage of the Year</h3>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Did one of our team members make a difference for you today?</p>
+                <p>bla bla bla</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
