@@ -8,6 +8,10 @@ let day = date.getDate();
 let year = date.getFullYear();
 let day_week = weekday[date.getDay()]
 
+if (day_week == 'Monday') {
+    document.getElementById('announcement').innerText = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 PM'
+}
+
 // This arrangement can be altered based on how we want the date's format to appear.
 document.getElementById("current_date").innerText = `${day_week}, ${day} ${month} ${year}`;
 
@@ -26,3 +30,4 @@ function toggleMenu() {
 
 const x = document.getElementById('hamburger-button')
 x.onclick = toggleMenu;
+
