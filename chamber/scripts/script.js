@@ -8,8 +8,9 @@ let day = date.getDate();
 let year = date.getFullYear();
 let day_week = weekday[date.getDay()]
 
+var announcement = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 PM'
 if (day_week == 'Monday') {
-    document.getElementById('announcement').innerText = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 PM'
+    document.getElementById('announcement').innerText = announcement;
 }
 
 // This arrangement can be altered based on how we want the date's format to appear.
