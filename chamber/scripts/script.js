@@ -9,7 +9,7 @@ let year = date.getFullYear();
 let day_week = weekday[date.getDay()]
 
 var announcement = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 PM'
-if (day_week == 'Monday') {
+if (day_week == 'Monday' || day_week == 'Tuesday') {
     document.getElementById('announcement').innerText = announcement;
 }
 
