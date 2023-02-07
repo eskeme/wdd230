@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Signika&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -9,7 +11,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	font-family: Acme, Arial, sans-serif;
+	font-family: 'Acme', Arial, sans-serif;
 }
 
 h1 {
