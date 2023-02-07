@@ -14,36 +14,32 @@
         @font-face {
             font-family: 'Visuelt Pro Regular';
             src: url("fonts/VisueltPro-Regular.ttf");
-        }   
-
-        .main-absolute {
-        position: absolute;
-        top: 0;
-        left: 0;
         }
 
+        @font-face {
+            font-family: 'Visuelt Pro Thin';
+            src: url("fonts/VisueltPro-Thin.ttf");
+        } 
+        
         .main-display {
-            display: flex;
-            /*background-image: url("background-signature.png");*/
-            background-repeat: no-repeat;
-            background-size: 600px 300px;
+            display: grid;
+            grid-template-columns: .5fr 5fr;
         }
 
         h1, h3 {
             font-family: 'Visuelt Pro', sans-serif;
-            font-size: 28px;
+            font-size: 24px;
         }
 
         h2 {
-            font-family: 'Visuelt Pro Regular', sans-serif;
-            font-size: 12px;
-            margin-top: -16px;
-            letter-spacing: 1px;;
+            font-family: 'Visuelt Pro Thin', sans-serif;
+            font-size: 10px;
+            letter-spacing: 1px;
+            margin-top: -10px;
         }
 
         .contact-links {
-            width: 600px;
-            margin-top: -8px;
+            width: 400px;
         }
 
         ul {
@@ -82,6 +78,13 @@
             cursor:pointer;
         }
 
+        .title {
+            width: 350px;
+            border-bottom: 3px solid #8cb4ff;
+            padding-bottom: 5px;
+            margin-top: 18px;
+        }
+
         button a {
             text-decoration: none;
             color: white;
@@ -103,16 +106,19 @@
             width: 20px;
         }
         .branding-logos {
-            margin-top: 10px;
-            margin-left: -30px;
+            width: 350px;
+            padding-top: 15px;
+            margin-left: 0;
+            border-top: 3px solid #8cb4ff;
+            margin-bottom: -20px;
         }
 
         .colab {
-            width: 22%;
+            width: 60%;
         }
 
         .aime {
-            width: 7%;
+            width: 20%;
             margin-left: 20px;
         }
 
@@ -120,56 +126,34 @@
             width: 400px;
             display: flex;
             padding: 10px;
-            margin-top: -18px;
-            margin-left: -20px;
         }
 
         .branding-graphic img {
-            width: 25px;
-            height: 25px;
+            width: 90%;
             margin-top: 16px;
+            margin-left: -10px;
         }
 
-        .branding-graphic h3 {
-            color: white;
-            font-size: 14px;
-            margin-top: 22px;
-            margin-left: 8px;
-            letter-spacing: 1px;;
-        }
-        
         .left-column {
-            width: 200px;
+            padding-left: 10px;
         }
 
         .left-column img {
-            width: 140px;
-            margin-top: 30px;
-            margin-left: 12px;
-            border: 8px solid #0a46b4;
-            border-radius: 50%;
+            width: 170px;
+            margin-top: 20px;
         }
 
         .footer p {
+            width: 360px;
             font-family: 'Visuelt Pro Regular', sans-serif;
-        }
-        .background-image {
-            width: 600px;
-    height: 300px;
-    margin: 0;
-    padding: 0;
-        }
-        .background-image > img {
-            max-width: 100%
+            color: #737373;
+            font-size: 7px;
         }
 
 
     </style>
 </head>
 <body>
-    <div class="background-image">
-        <img src="background-signature.png">
-    </div>
     <div class="main-absolute">
     <div class="main-display">
         <div class="left-column">
@@ -205,13 +189,11 @@
                 <img class="aime" src="aime.png" alt="AIME logo">
                 </div>
                 <div class="branding-graphic">
-                    <img src="aimeaward.png" alt="Aime Award logo">
-                    <h3>2023 Regional Brokerage of the Year</h3>
+                    <img src="aime-logo-award.png" alt="Aime Award logo">
                 </div>
             </div>
             <div class="footer">
-                <p>Did one of our team members make a difference for you today?</p>
-                <p>bla bla bla</p>
+                <p>Co/LAB Lending, LLC supports Equal Housing Opportunity. NMLS ID #1219828 (www.nmlsconsumeraccess.org) |877-314-1499. Co/LAB Lending, LLC supports Equal Housing Opportunity. Co/LABLending is licensed inFL, MD, NC, OH, PA, PR, TX, and VA. NMLS ID #1219828 (www.nmlsconsumeraccess.org) | 877-314-1499. Interest rates and products are subject to change without notice and may or may not be availableat thetime of loan commitment or lock-in. Borrowers must qualify at closing for all benefits. “Co/LAB Lending” is a registered trademark of Munar Mortgage, LLC. 2220 E. College Avenue, State College, PA 16801.</p>
             </div>
         </div>
     </div>
