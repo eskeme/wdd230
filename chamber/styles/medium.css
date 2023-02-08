@@ -14,14 +14,17 @@
     .right-column div {
         width: 50%;
         margin: 10px;
-        height: 80%;
+        height: 92%;
+    }
+
+    .right-column p {
+        margin: auto;
     }
 
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        height: 900px;
     }
 
     .featured {

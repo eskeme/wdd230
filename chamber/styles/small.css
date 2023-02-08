@@ -415,6 +415,7 @@ h1 span {
 .right-column {
     background-color: #1c3eb0;
     border: 1px solid rgba(0,0,0,0.3);
+    height: 99%;
 }
 
 .spotlight1, .spotlight2, .spotlight3{
@@ -426,4 +427,27 @@ h1 span {
 
 .right-column h1 {
     color: yellow;
+}
+
+.right-column h3 {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+
+.right-column p {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 10px;
+}
+
+.contact_spot1 {
+    line-height: 10px;
+    width: 100%;
+}
+
+.right-column img {
+    width: 30%;
 }
