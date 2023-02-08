@@ -151,11 +151,10 @@ nav ul.open {
 }
 
 main {
-    display: grid;
+    display: block;
     grid-template-columns: auto;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     padding: 10px;
-    height: 830px;
 }
 
 main .featured, .event, .join_here, .weather, .news-update{
@@ -266,6 +265,7 @@ footer p, a {
     background-position: center;
     background-color: #1c3eb0;
     position: relative;
+    min-height: 150px;
 }
 
 .featured h1 {

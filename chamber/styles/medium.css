@@ -84,4 +84,12 @@
     .address p {
         text-align: left;
     }
+
+    .news-update h1 {
+        margin-top: 60px;
+    }
+
+    .join_here button {
+        margin-top: 60px;
+    }
 }
