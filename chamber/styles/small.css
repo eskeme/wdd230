@@ -158,14 +158,13 @@ main {
     height: 830px;
 }
 
-main .featured, .event, .join_here, .weather, .news-update, .right-column  {
+main .featured, .event, .join_here, .weather, .news-update{
     border: 1px solid rgba(0,0,0,0.3);
     padding: 10px;
     margin: 10px;
 }
 
 .right-column div {
-    border: 1px solid rgba(0,0,0,0.3);
     padding: 10px;
     height: 50%;
 }
@@ -262,10 +261,11 @@ footer p, a {
 }
 
 .featured {
-    background-image: url('images/barangay-hall.jpg');
+    background-image: url('/images/barangay-hall.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-color: #1c3eb0;
+    position: relative;
 }
 
 .featured h1 {
@@ -284,7 +284,146 @@ h1 span {
     background-color: #1c3eb0;
     padding: 10px;
     box-shadow: 5px 5px rgba(0,0,0,0.3);
+    position: absolute;
+    border: none;
+    bottom: 10px;
+    right: 5px;
+}
+
+.event {
     position: relative;
-    margin-left: 600px;
-    margin-top: 380px;
+    background-color: #1c3eb0;
+    text-align: center;
+    font-size: 80%;
+}
+
+.event h1 {
+    color: yellow;
+}
+
+.event h3 {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+.event p a {
+    font-family: 'Nunito', sans-serif;
+}
+
+.event a {
+    color: yellow;
+    font-size: 18px;
+}
+
+.event p {
+    color: white;
+    font-size: 18px;
+}
+
+.weather {
+    position: relative;
+    background-color: #1c3eb0;
+    text-align: center;
+    font-size: 80%;
+}
+
+.weather h1 {
+    color: yellow;
+}
+
+.image-weather {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.image-weather img {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.image-weather h1 {
+    color: white;
+    font-size: 60px;
+    position: relative;
+    width: 50%;
+}
+
+.weather h2 {
+    font-size: 24px;
+    position: absolute;
+    right: 30px;
+    bottom: 75px;
+}
+
+.information-weather {
+    line-height: 8px;
+    border-top: 2px solid rgba(255,255,255,0.3);
+}
+
+.weather p {
+    font-size: 20px;
+    padding: 0;
+    color: white;
+}
+
+.join_here {
+    position: relative;
+    background-color: #1c3eb0;
+    text-align: center;
+    font-size: 80%;
+    padding-top: 40px;
+}
+
+.join_here button {
+    padding: 10px;
+    width: 200px;
+    background-color: white;
+}
+
+.join_here a {
+    color: #1c3eb0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.join_here p {
+    font-size: 18px;
+    color: white;
+}
+
+.news-update {
+    position: relative;
+    background-color: #1c3eb0;
+    text-align: center;
+    font-size: 80%;
+}
+
+.news-update h1 {
+    color: yellow;
+}
+
+.news-update p {
+    color: white;
+    font-size: 18px;
+}
+
+.right-column {
+    background-color: #1c3eb0;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.spotlight1, .spotlight2, .spotlight3{
+    background-color: rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3);
+    text-align: center;
+    font-size: 80%;
+}
+
+.right-column h1 {
+    color: yellow;
 }
