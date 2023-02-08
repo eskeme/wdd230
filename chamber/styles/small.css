@@ -269,7 +269,6 @@ footer p, a {
 }
 
 .featured h1 {
-    display: absolute;
     padding: 5px;
     font-size: 24px;
 }
@@ -299,6 +298,7 @@ h1 span {
 
 .event h1 {
     color: yellow;
+    margin-top: 50px;
 }
 
 .event h3 {
