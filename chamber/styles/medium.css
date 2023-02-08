@@ -69,7 +69,11 @@
         margin: auto;
     }
 
-    .address p, h2 {
+    .address p {
+        display: flex;
+    }
+
+    .address h2 {
         display: flex;
     }
 
