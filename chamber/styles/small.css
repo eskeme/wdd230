@@ -260,3 +260,29 @@ footer p, a {
 #announcement {
     color: yellow;
 }
+
+.featured {
+    background-image: url('/images/barangay-hall.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1c3eb0;
+}
+
+.featured h1 {
+    display: absolute;
+    padding: 5px;
+    font-size: 24px;
+}
+
+h1 span {
+    padding: 5px;
+    background-color: #1c3eb0;
+    box-shadow: 5px 5px rgba(0,0,0,0.3);
+}
+
+.featured button {
+    background-color: #1c3eb0;
+    padding: 10px;
+    box-shadow: 5px 5px rgba(0,0,0,0.3);
+    position: relative;
+}
