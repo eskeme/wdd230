@@ -260,7 +260,7 @@ footer p, a {
 }
 
 .featured {
-    background-image: url('/images/barangay-hall.jpg');
+    background-image: url('https://github.com/eskeme/wdd230/blob/main/chamber/images/barangay-hall.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-color: #1c3eb0;
