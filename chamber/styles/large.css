@@ -35,6 +35,7 @@
     .featured {
         grid-column: 2 / 3;
         grid-row: 1 / span 2;
+        height: 95%;
     }
 
     .right-column {

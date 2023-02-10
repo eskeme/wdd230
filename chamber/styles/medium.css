@@ -100,4 +100,9 @@
     .weather h2 {
         top: 180px;
     }
+
+    .featured {
+        height: 300px;
+    }
+    
 }
