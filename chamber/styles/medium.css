@@ -96,4 +96,8 @@
     .join_here button {
         margin-top: 60px;
     }
+
+    .weather h2 {
+        top: 180px;
+    }
 }

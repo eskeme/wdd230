@@ -16,15 +16,17 @@
     <header>
         <div class="main_header">
         <div id="logo">
-            <img src="images/logo.png" alt="Catalunan Grande Logo">
+        <picture>
+            <img src="images/logo.webp" alt="Catalunan Grande Logo">
+        </picture>
             <div>
             <h1>Catalunan Grande</h1>
             <h2>Chamber of Commerce</h2>
             </div>
         </div>
         <div id="social_media">
-            <a href="https://www.facebook.com/" ><img src="images/facebook.png" alt="Facebook Logo"></a>
-            <a href="https://www.linkedin.com/feed/"><img src="images/linkedin.png" alt="Linkedin Logo"></a>
+            <a href="https://www.facebook.com/" ><picture><img src="images/facebook.png" alt="Facebook Logo"></picture></a>
+            <a href="https://www.linkedin.com/feed/"><picture><img src="images/linkedin.png" alt="Linkedin Logo"></picture></a>
         </div>
         <nav>
             <button id="hamburger-button"><span>&#9776;</span><span>&#9776;</span></button>
@@ -51,13 +53,20 @@
                 <a href="#">more info...</a>
             </div>
             <div class="featured">
+                <picture>
+                    <source srcset="images/medium-hero.jpg" media="(min-width: 560px) and (max-width: 1023px)">
+                    <source srcset="images/large-hero.jpg" media="(min-width: 800px)">
+                    <img src="images/small-hero.jpg" alt="Image of a meeting">
+                </picture>
                 <h1><span>Welcome to Catalunan Grande</span></h1>
                     <button>Join the Chamber</button>          
             </div>
             <div class="right-column">
                 <div class="spotlight1">
                     <h1>Thankful Transport</h1>
-                    <img src="images/truck.png" alt="This is another image of a truck">
+                    <picture>
+                        <img src="images/truck.png" alt="This is also an image of a truck">
+                    </picture>
                     <h2>"We get it there for you!"</h2>
                     <div class="contact_spot1">
                         <p>hello@thankfultransport.com</p>
@@ -65,7 +74,9 @@
                     </div>
                 </div>
                 <div class="spotlight2"><h1>Thankful Transport</h1>
-                    <img src="images/truck.png" alt="This is an image of a truck">
+                    <picture>
+                        <img src="images/truck.png" alt="This is also an image of a truck">
+                    </picture>
                     <h2>"We get it there for you!"</h2>
                     <div class="contact_spot1">
                     <p>hello@thankfultransport.com</p>
@@ -73,7 +84,9 @@
                 </div>
                 </div>
                 <div class="spotlight3"><h1>Thankful Transport</h1>
+                    <picture>
                     <img src="images/truck.png" alt="This is also an image of a truck">
+                </picture>
                     <h2>"We get it there for you!"</h2>
                     <div class="contact_spot1">
                     <p>hello@thankfultransport.com</p>
@@ -83,13 +96,15 @@
             <div class="weather">
                 <h1>Weather</h1>
                 <div class="image-weather">
+                    <picture>
                     <img src="images/cloudy.png" alt="This is an image of a sun with clouds">
-                    <h1>33°C</h1>
+                </picture>
+                    <h1>33°C</h1>>
                 </div>
                 <h2>Partly Cloudy</h2>
                 <div class="information-weather">
                     <p>Wind Speed:     2.5km/h</p>
-                    <p>Wind Chill:        N/A</p>
+                    <p>Wind Chill:     <span id="windChill"></span>&deg;</p>
                 </div>
             </div>
             <div class="news-update">
@@ -106,7 +121,9 @@
         <footer>
             <div class="main_footer">
                 <div class="footer_logo">
-                    <img src="images/logo.png" alt="Catalunan Grande Logo">
+                    <picture>
+                    <img src="images/logo.webp" alt="Catalunan Grande Logo">
+                </picture>
                     <div class="address">
                     <h2>Catalunan Grande Chambers of Commerce</h2>
                     <p>1234 Street Here Avenue</p>
@@ -118,8 +135,11 @@
                     <p>123-431-5692</p>
                 <div class="map_container">
                     <div class="location_map">
-                        <a href="#"><img src="images/location.png" alt="Location Map"></a>
-                        <a href="#"><p>Location Map</p></a>
+                        <a href="#">
+                            <picture>
+                            <img src="images/location.png" alt="Location Map"></picture></a>
+                        
+                          <a href="#"><p>Location Map</p></a>
                     </div>
                 </div>
                 </div>
@@ -140,5 +160,6 @@
             </div></div>      
                 </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
