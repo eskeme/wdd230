@@ -16,6 +16,8 @@ img {
     margin: 0 auto;
     margin-bottom: 20px;
     border: thin solid rgb(0,0,0,0.3);
+    width: 300px;
+    height: 400px;
 }
 
 img {
