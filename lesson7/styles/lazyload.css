@@ -8,7 +8,7 @@ h1 {
 }
 
 img[data-src] {
-    filter: blur(0.5em);
+    filter: blur(0.2em);
 }
 
 img {
@@ -22,5 +22,5 @@ img {
 
 img {
     filter: blur(0em);
-    transition: filter 1s;
+    transition: filter 0.5s;
 }
