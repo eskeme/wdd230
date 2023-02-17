@@ -3,7 +3,6 @@ const formatter = new Intl.DateTimeFormat('en', {month: 'long'});
 const month = formatter.format(new Date());
 const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const copyright = document.querySelector('#copyright');
-const visitsDisplay = document.querySelector("#visits");
 
 let day = date.getDate();
 let year = date.getFullYear();
@@ -33,18 +32,31 @@ function toggleMenu() {
 const x = document.getElementById('hamburger-button')
 x.onclick = toggleMenu;
 
-let numVisits = Number(window.localStorage.getItem("visits-ls")); 
-// Using the Number() function ensures that if the storage item does not exist, it will be converted into a zero (0) which helps on the if block condition.
+// get the current date and time
+const today = new Date();
 
-// determine if this is the first visit or display the number of visits.
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
-} else {
-	visitsDisplay.textContent = `This is your first visit!`;
+// check if there is a previous site visit stored in local storage
+if (localStorage.getItem('lastVisit')) {
+  // get the date of the last site visit from local storage
+  const lastVisit = new Date(localStorage.getItem('lastVisit'));
+  
+  // calculate the time difference between today and the last site visit
+  const diffInMilliseconds = Math.abs(today - lastVisit);
+  const diffInSeconds = Math.floor(diffInMilliseconds / 1000);
+  const diffInMinutes = Math.floor(diffInSeconds / 60);
+  const diffInHours = Math.floor(diffInMinutes / 60);
+  const diffInDays = Math.ceil(diffInHours / 24);
+  const resultElement = document.getElementById('visits');
+  resultElement.innerHTML = `${diffInDays} days`;
+
+  
+  console.log(`The time difference between today and the last site visit is:`);
+  console.log(`${diffInMilliseconds} milliseconds`);
+  console.log(`${diffInSeconds} seconds`);
+  console.log(`${diffInMinutes} minutes`);
+  console.log(`${diffInHours} hours`);
+  console.log(`${diffInDays} days`);
 }
 
-// increment the number of visits.
-numVisits++;
-// store the new number of visits value
-localStorage.setItem("visits-ls", numVisits);
-
+// store the current date and time as the last site visit in local storage
+localStorage.setItem('lastVisit', today);
