@@ -107,4 +107,8 @@
     .discover-main img {
         width: 100%;
     }
+
+    .discover-main img:hover {
+        opacity: .5;
+    }
 }
