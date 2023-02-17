@@ -21,7 +21,7 @@
         margin: auto;
     }
 
-    main {
+    .index-main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -112,5 +112,9 @@
     
     .discover-main img {
         width: 100%;
+    }
+
+    .discover-main img:hover {
+        opacity: .5;
     }
 }

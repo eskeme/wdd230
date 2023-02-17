@@ -26,7 +26,7 @@
         margin-top: 18px;
     }
 
-    main {
+    .index-main {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -91,7 +91,7 @@
         position: relative;
         margin: auto;
         border: 1px solid rgba(0,0,0,0.3);
-        margin: 10px;
+        margin: 10px auto
     }
     
     .discover-main img {
@@ -104,29 +104,4 @@
         padding-left: 10px;
         padding-right: 10px;
     }
-    
-    .second-image {
-        display: flex;
-    }
-    
-    .second-image img {
-        width: 500px;
-    }
-    
-    .fourth-image {
-        display: flex;
-    }
-    
-    .fourth-image img {
-        width: 500px;
-    }
-    
-    .fifth-image {
-        display: flex;
-    }
-    
-    .fifth-image img {
-        width: 500px;
-    } 
-
 }

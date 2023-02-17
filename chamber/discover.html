@@ -8,16 +8,16 @@
         <meta name="author" content="Justine Insong">
         <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/small-discover.css">
-        <link rel="stylesheet" href="styles/medium-discover.css">
-        <link rel="stylesheet" href="styles/large-discover.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
     </head>
 <body>
     <header>
         <div class="main_header">
         <div id="logo">
         <picture>
-            <img src="images/logo.webp" alt="Catalunan Grande Logo">
+            <a href="index.html"><img src="images/logo.webp" alt="Catalunan Grande Logo"></a>
         </picture>
             <div>
             <h1>Catalunan Grande</h1>
@@ -34,7 +34,7 @@
         </div>
         <nav>
             <ul id="primary-nav">
-                <li><a href="#">Discover</a></li>
+                <li class="discover"><a href="#">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li class="join"><a href="#">Join</a></li>
                 <li class="contact"><a href="#">Contact</a></li>    
@@ -43,30 +43,31 @@
         <div id="date_today">
             <p><span id="announcement"></span></p>
             <p class="current"><span id="current_date"></span></p>
+            <p><span class="label">Number of Visits: </span><span id="visits"></span>
         </div>
     </header>
     <main>
         <div class="discover-main">
             <div class="first-image">
             <picture>
+                <p>As of May 1, 2020, the total population of Davao City is 5,243,539. Davao City has an annual population growth rate of 1.46% from 2015-2020. The average household size as of May 1, 2020 is 3.9.</p>
                 <img data-src="images/city-hall.jpg" src="images/city-hall-loading.jpg" alt="Image of Davao City Hall">
+                <p>This is a picture of the Davao City Hall, this is where our local mayor works.</p>
             </picture>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus orci, malesuada nec tristique in, bibendum eu risus. Donec nec tincidunt eros. Curabitur ut urna lobortis erat iaculis lacinia. Sed eget bibendum risus, ut finibus felis. In volutpat id nisi in aliquet. Nam vitae urna id velit mattis molestie. Nam vel consectetur turpis. Duis egestas leo nec auctor varius. Quisque accumsan congue mauris non efficitur. Etiam at nulla ac ligula tincidunt bibendum. Nunc eu enim vel massa tincidunt venenatis sit amet a mi.</p>
             </div>
             <div class="second-image">
             <picture>
                 <img data-src="images/davao-city-skyview-large.jpg" src="images/davao-city-skyview-small.jpg" alt="Image of the whole city">
             </picture>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus orci, malesuada nec tristique in, bibendum eu risus. Donec nec tincidunt eros. Curabitur ut urna lobortis erat iaculis lacinia. Sed eget bibendum risus, ut finibus felis. In volutpat id nisi in aliquet. Nam vitae urna id velit mattis molestie. Nam vel consectetur turpis. Duis egestas leo nec auctor varius. Quisque accumsan congue mauris non efficitur. Etiam at nulla ac ligula tincidunt bibendum. Nunc eu enim vel massa tincidunt venenatis sit amet a mi.</p>
+            <p>This is a skyview image of the city.</p>
             </div>
             <div class="third-image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus orci, malesuada nec tristique in, bibendum eu risus. Donec nec tincidunt eros. Curabitur ut urna lobortis erat iaculis lacinia. Sed eget bibendum risus, ut finibus felis. In volutpat id nisi in aliquet. Nam vitae urna id velit mattis molestie. Nam vel consectetur turpis. Duis egestas leo nec auctor varius. Quisque accumsan congue mauris non efficitur. Etiam at nulla ac ligula tincidunt bibendum. Nunc eu enim vel massa tincidunt venenatis sit amet a mi.</p>
             <picture>
                 <img data-src="images/davao-eagle.jpg" src="images/davao-eagle-loading.jpg" alt="Image of Eagle Farm">
+                <p>This is an image of an Eagle from Eagle Farm.</p>
             </picture>
             </div>
             <div class="fourth-image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus orci, malesuada nec tristique in, bibendum eu risus. Donec nec tincidunt eros. Curabitur ut urna lobortis erat iaculis lacinia. Sed eget bibendum risus, ut finibus felis. In volutpat id nisi in aliquet. Nam vitae urna id velit mattis molestie. Nam vel consectetur turpis. Duis egestas leo nec auctor varius. Quisque accumsan congue mauris non efficitur. Etiam at nulla ac ligula tincidunt bibendum. Nunc eu enim vel massa tincidunt venenatis sit amet a mi.</p>
             <picture>
                 <img data-src="images/crocodile-park.jpg" src="images/crocodile-park-loading.jpg" alt="Image of Crocodile Park">
             </picture>
