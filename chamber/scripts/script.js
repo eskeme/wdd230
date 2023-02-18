@@ -42,7 +42,7 @@ if (localStorage.getItem('lastVisit')) {
   const diffInMinutes = Math.floor(diffInSeconds / 60);
   const diffInHours = Math.floor(diffInMinutes / 60);
   const diffInDays = Math.ceil(diffInHours / 24);
-  
+
   // display the appropriate message based on the time difference
   const resultElement = document.getElementById('visits');
   if (diffInDays === 1) {
