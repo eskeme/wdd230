@@ -32,31 +32,36 @@ function toggleMenu() {
 const x = document.getElementById('hamburger-button')
 x.onclick = toggleMenu;
 
-// get the current date and time
-const today = new Date();
-
-// check if there is a previous site visit stored in local storage
 if (localStorage.getItem('lastVisit')) {
   // get the date of the last site visit from local storage
   const lastVisit = new Date(localStorage.getItem('lastVisit'));
   
   // calculate the time difference between today and the last site visit
-  const diffInMilliseconds = Math.abs(today - lastVisit);
+  const diffInMilliseconds = Math.abs(date - lastVisit);
   const diffInSeconds = Math.floor(diffInMilliseconds / 1000);
   const diffInMinutes = Math.floor(diffInSeconds / 60);
   const diffInHours = Math.floor(diffInMinutes / 60);
   const diffInDays = Math.ceil(diffInHours / 24);
-  const resultElement = document.getElementById('visits');
-  resultElement.innerHTML = `${diffInDays} days`;
-
   
+  // display the appropriate message based on the time difference
+  const resultElement = document.getElementById('visits');
+  if (diffInDays === 1) {
+    resultElement.innerHTML = `Welcome back! It has been 1 day since you last visited.`;
+  } else if (diffInDays > 1) {
+    resultElement.innerHTML = `Welcome back! It has been ${diffInDays} days since you last visited.`;
+  } else {
+    resultElement.innerHTML = 'Welcome to the chamber website!';
+  }
+  
+  // display the time difference in the console
   console.log(`The time difference between today and the last site visit is:`);
   console.log(`${diffInMilliseconds} milliseconds`);
   console.log(`${diffInSeconds} seconds`);
   console.log(`${diffInMinutes} minutes`);
   console.log(`${diffInHours} hours`);
   console.log(`${diffInDays} days`);
-}
 
-// store the current date and time as the last site visit in local storage
-localStorage.setItem('lastVisit', today);
+} else {
+  localStorage.setItem('lastVisit', date);
+  document.getElementById('visits').textContent = 'Welcome to the chamber website!';
+}
