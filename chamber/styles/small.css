@@ -564,3 +564,9 @@ form label {
 .join-main h1 {
     margin-bottom: 50px;
 }
+
+textarea {
+    resize: vertical;
+    width: 100%;
+    height: 150px;
+}
