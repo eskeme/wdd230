@@ -285,6 +285,14 @@ footer p, a {
     left: 10px;
 }
 
+.featured button {
+    cursor: pointer;
+}
+
+.join_here button {
+    cursor: pointer;
+}
+
 .featured img {
     object-fit:cover;
     width: 100%;
