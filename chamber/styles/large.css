@@ -112,11 +112,11 @@
     .name {
         display: flex;
         flex-direction: row;
-        gap: 30px;
+        gap: 10px;
     }
 
     .name input {
-        width: 282px;
+        width: 292px;
         padding-left: 10px;
     }
 
