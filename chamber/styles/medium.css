@@ -145,4 +145,15 @@
       input, select, textarea {
         margin: 5px 0;
       }
+
+      .form-box {
+        display: flex;
+        flex-direction: row;
+      }
+
+      label {
+        white-space: nowrap;
+        margin-top: 12px;
+      }
+
 }

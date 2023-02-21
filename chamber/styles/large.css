@@ -108,4 +108,26 @@
     .join-main {
         width: 800px;
     }
+
+    .name {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .name input {
+        width: 282px;
+        padding-left: 10px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .contact input {
+        width: 300px;
+        padding-left: 10px;
+    }
 }
