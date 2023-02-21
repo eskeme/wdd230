@@ -552,3 +552,7 @@ main {
 form label {
     display: none;
 }
+
+.join-main h1 {
+    margin-bottom: 50px;
+}
