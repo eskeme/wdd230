@@ -63,7 +63,7 @@
 	border: none;
   }
 
-  .main-table th {
+  .white {
 	color: white;
 	background-color: #333333;
 	padding: 10px 30px;
@@ -77,5 +77,9 @@
 .x {
 	color: red;
 	font-size: 25px;;
+}
+
+.black {
+	color: black;
 }
 
