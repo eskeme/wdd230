@@ -1,0 +1,58 @@
+.hidden {
+  display: none;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+label {
+  font-family: sans-serif;
+}
+
+section {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffe5b4;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.filter {
+  padding-bottom: 10px;
+}
+
+footer {
+  padding: 10px;
+  font-family: sans-serif;
+  border-top: 2px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+body {
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 10px;
+}
+
+section img {
+  object-fit: cover;
+  width: 100%;
+  object-position: 0px 10%;
+}
+
+h1 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
