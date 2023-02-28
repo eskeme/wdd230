@@ -56,3 +56,24 @@ h1 {
   padding-bottom: 10px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
+
+.filter {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.my-button {
+  background-color: #ffe5b4;
+  color: black;
+  border: none;
+  padding: 5px 15px;;
+  font-size: 16px;
+  cursor: pointer;
+  border: thin solid rgba(0, 0, 0, 0.3);
+  margin-top: 5px;
+}
+
+.my-button:hover {
+  background-color: #bd841a;
+  color: white;
+}

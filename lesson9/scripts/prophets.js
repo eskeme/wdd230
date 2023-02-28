@@ -42,15 +42,13 @@ const displayProphets = (prophets) => {
     cards.appendChild(card);
   }); // end of forEach loop
 
-  const filter = document.getElementById('filter');
-  filter.addEventListener('change', () => {
+  const filterBtn = document.getElementById('filter-btn');
+  filterBtn.addEventListener('click', () => {
     const cards = document.querySelectorAll('div.cards section');
     cards.forEach((card) => {
       const yearsServed = card.querySelector('h3').innerHTML.match(/Years served: (\d+)/)[1];
-      if (filter.checked && yearsServed >= 10) {
-        card.classList.add('hidden');
-      } else {
-        card.classList.remove('hidden');
+      if (yearsServed >= 10) {
+        card.classList.toggle('hidden');
       }
     });
   });
