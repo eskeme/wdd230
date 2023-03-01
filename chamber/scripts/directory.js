@@ -121,3 +121,5 @@ locationH3.classList.add('location');
 const contactH3 = document.createElement("h3");
 contactH3.textContent = `${business.contact_number}`;
 contactH3.classList.add('phone-number');
+
+//comment//
