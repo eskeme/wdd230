@@ -584,3 +584,19 @@ input[required] {
     color: red;
     margin-right: 5px;
   }
+
+  .directory-main h1 {
+    color: black;
+    text-align: center;
+}
+
+.directory-main {
+    font-family: 'Nunito', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.business h2 {
+    color: black;
+    text-align: center;
+}
