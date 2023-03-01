@@ -1,0 +1,77 @@
+{
+    "business":
+    [
+        {
+        "business_name": "KM TEN Auto Center",
+        "contact_number": "0917 790 1770",
+        "location": "Kilometer 10, Catalunan Pequeno Highway",
+        "service": "Auto Repair Shop",
+        "website": "https://www.facebook.com/kmtenauto",
+        "image": ""
+        },
+        {
+        "business_name": "Kareha Autoworks Auto Repair Shop",
+        "contact_number": "0922 836 1093",
+        "location": "Beside Davao Adventist Hospital, Km.7 Bangkal Mc Arthur Highway, Bangkal Street",
+        "service": "Auto Repair Shop",
+        "website": "https://kareha-autoworks-auto-repair-shop.business.site/",
+        "image": "#"
+        },
+        {
+        "business_name": "Leandro's Specialties",
+        "contact_number": "(082) 222 5578",
+        "location": "247 F. Torres St, Poblacion District",
+        "service": "Catering Service",
+        "website": "https://www.facebook.com/leandroscatering",
+        "image": "#"
+        },
+        {
+        "business_name": "Lou Catering Services",
+        "contact_number": "0910 384 1090",
+        "location": "Purok 4 Sitio Kauswagan Baranggay",
+        "service": "Catering Service",
+        "website": "https://www.loucatering.com/",
+        "image": "#"
+        },
+        {
+        "business_name": "Kentdell Plumbing and Electrical Services",
+        "contact_number": "0921 227 6285",
+        "location": "Cosmos-Sangumay Sts., Phase 4-B, El Rio Vista Village, Poblacion District",
+        "service": "Plumbing Services",
+        "website": "https://kentdellplumbingandelectricalservices.business.site/?utm_source=gmb&utm_medium=referral",
+        "image": "#"
+        },
+        {
+        "business_name": "Landor Septic Tank Excavator and Plumbing Services",
+        "contact_number": "0948 514 8571",
+        "location": "37-D Trading Blvd, Poblacion District",
+        "service": "Plumbing Services",
+        "website": "https://davaoseptictank.com/",
+        "image": "#"
+        },
+        {
+        "business_name": "BJR Computer Solutions",
+        "contact_number": "0998 990 9117",
+        "location": "Unit 207, Goldwin Building, Elpidio Quirino Ave, Poblacion District",
+        "service": "Computer Repair",
+        "website": "https://www.facebook.com/profile.php?id=100087015864947",
+        "image": "#"
+        },
+        {
+        "business_name": "FIXMYMAC",
+        "contact_number": "0917 136 6822",
+        "location": "Plaza Del Carmen, Fixmymac, Stall #3, BO Obrero",
+        "service": "Computer Repair",
+        "website": "https://fixmymac.ph/",
+        "image": "#"
+        },
+        {
+        "business_name": "Hub101 Computer Systems",
+        "contact_number": "0905 283 2544",
+        "location": "Doña Aurora St, Tugbok",
+        "service": "Computer Repair",
+        "website": "https://www.facebook.com/Hub101Davao",
+        "image": "#"
+        }
+    ]
+}
