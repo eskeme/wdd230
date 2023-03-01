@@ -51,7 +51,7 @@ const displayBusiness = (business) => {
     card.style.textAlign = "center";
 
     portrait.setAttribute('src', business.image);
-    portrait.setAttribute('alt', `Image of ${business.business_name}`);
+    portrait.setAttribute('alt', `Business Banner of ${business.business_name}`);
     portrait.setAttribute('loading', 'lazy');
     portrait.setAttribute('height', '200');
 
