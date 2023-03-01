@@ -707,6 +707,7 @@ section a {
 
   .button-directory {
     text-align: center;
+    padding-bottom: 20px;
   }
 
   .section-box {
@@ -717,4 +718,11 @@ section a {
 
   div.list h3.full-address {
     display: none;
+  }
+
+  .button-directory button {
+    display: block;
+    width: 100%;
+    margin: 0;
+    border: thin solid rgba(255, 255, 255, 0.3);
   }
