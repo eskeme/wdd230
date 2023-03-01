@@ -1,20 +1,50 @@
-@media screen and (max-width: 375px) { 
-    .full-name h1 {
-        font-size: 120%;
-      }
-      .lessons {
+@media screen and (max-width: 456px) { 
+          .lessons {
         max-width: 80%;
-        margin-left: 20px;
         border-bottom: 1px solid black;
         padding-top: 10px;
         border-top: 1px solid black;
         padding-bottom: 10px ;
         margin-bottom: 1px;
+        margin: 0 auto;
       }
       .content p {
         font-size: 12px;
-        padding-left: 18px;
         font-style: italic;
         padding-bottom: 10px;
       }
+
+      .content h1 {
+        text-align: center;
+      }
+
+      .content p {
+        text-align: center;
+      }
+
+    li {
+      list-style-type: none;
+    }
+
+    .lessons {
+      margin: 0 auto;
+      padding: 0 ;
+    }
+
+    .lessons li:nth-child(even) {
+      background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  ul.lessons li {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
 }
+.content h1 {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+}
+
