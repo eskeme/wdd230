@@ -57,7 +57,6 @@ const displayBusiness = (business) => {
 
     card.appendChild(h2);
     card.appendChild(portrait);
-    card.appendChild(h3);
     card.appendChild(locationH3);
     card.appendChild(contactH3);
     card.appendChild(websiteLink);
