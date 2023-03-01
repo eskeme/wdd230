@@ -575,6 +575,10 @@ input[required] {
     border-radius: 5px; /* Example value, adjust as needed */
   }
   
+  input[required]:valid {
+    border-color: green; /* Change border color to green when input is valid */
+  }
+  
   input[required]::before {
     content: "*";
     color: red;
