@@ -596,7 +596,125 @@ input[required] {
     margin: 0 auto;
 }
 
-.business h2 {
+.businesses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+    padding-bottom: 10px;
+
+  }
+
+section {
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.businesses img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px 10%;
+}
+
+
+.businesses h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+section a {
+    color: red;
+    padding-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.businesses h1, .businesses h2, .businesses h3 {
     color: black;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
 }
+
+.directory-main button {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-color: #1c3eb0;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.directory-main button:hover {
+    background-color: #163391;
+}
+  
+.list {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  .list section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0.25rem;
+    border: none;
+  }
+  
+  .list section > * {
+    margin: 0 1rem;
+    flex-basis: 30%;
+  }
+  
+  .list section > :last-child {
+    flex-basis: 30%;
+  }
+
+  
+  .list section img {
+    display: none;
+    width: 1px;
+  }
+  
+  .list section:nth-child(even) {
+    background-color: #1c3fb056;
+  }
+  
+  .list h1,
+  .list h2,
+  .list h3,
+  .list a {
+    font-size: 14px;
+  }
+  
+  .list h2 {
+    text-align: left;
+  }
+  
+  .list h3 {
+    text-align: left;
+  }
+  
+  .list h3:empty {
+    display: none;
+  }
+
+  .list h3 {
+    text-align: center;
+  }
+
+  .button-directory {
+    text-align: center;
+  }
+
+  .section-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.list h3.full-address {
+    display: none;
+  }

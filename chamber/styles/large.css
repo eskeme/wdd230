@@ -130,4 +130,15 @@
         width: 300px;
         padding-left: 10px;
     }
+
+    .businesses {
+        width: 70%;
+    }
+
+    .list {
+        width: 65%;
+      }
+      h3.full-address {
+        display: block;
+      }
 }

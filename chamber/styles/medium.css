@@ -156,4 +156,23 @@
         margin-top: 12px;
       }
 
+      .list {
+        width: 90%;
+      }
+
+      .businesses {
+        width: 90%;
+      }
+
+      .list h3 {
+        display: block;
+      }
+
+      div.list h3.full-address {
+        display: block;
+      }
+
+      .list section > :last-child {
+        flex-basis: 20%;
+      }
 }
