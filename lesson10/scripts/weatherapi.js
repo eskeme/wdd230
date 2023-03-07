@@ -34,7 +34,7 @@ async function displayWeatherInfo() {
         <h2>${city}</h2>
         <p>The current temperature in ${weatherData.name} is ${currentTemp} &deg;F</p>
         <figure>
-          <img src="${iconsrc}" alt="${desc}" />
+          <img src="${iconsrc}" alt="icon of ${desc}" />
           <figcaption>${desc}</figcaption>
         </figure>
       </div>
