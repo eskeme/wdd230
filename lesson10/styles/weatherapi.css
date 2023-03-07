@@ -21,6 +21,7 @@ h1 {
     background-size: 700px auto;
     background-position: center;
     padding-bottom: 20px;
+    margin: 0 auto;
 }
 
 .weather-card {
@@ -34,10 +35,6 @@ h1 {
     margin-top: 10px;
 }
 
-.weather-card h2 {
-    padding-top: 5px;
-}
-
 figcaption {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
