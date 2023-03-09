@@ -32,6 +32,10 @@ function displayResults(weatherData) {
     "src",
     `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`
   );
+  weatherIcon.setAttribute(
+    "alt",
+    `image of ${weatherData.weather[0].description}`
+  );
 
   const windSpeed = weatherData.wind.speed;
   const windSpeedKph = (windSpeed * 1.60934).toFixed(1);
