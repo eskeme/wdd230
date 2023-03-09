@@ -708,15 +708,17 @@ section a {
     width: 40%;
   }
 
-  .image-temp p {
-    font-size: 3rem;
+  .image-temp h3 {
     font-size: clamp(34px, 1.5vw, 18px);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
   }
   
   figcaption {
     color: white;
     font-family: 'Nunito', sans-serif;
-    font-size: clamp(16px, 20px, 34px);
+    font-size: clamp(24px, 30px, 36px);
   }
 
   .image-temp {
@@ -725,7 +727,16 @@ section a {
     align-items: center;
   }
 
+  .information-weather h3 {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    padding-top: 0.8em;
+    font-size: clamp(24px, 30px, 36px);
+    font-weight: 400;
+    padding-top: 0.8px;
+  }
+
   .information-weather {
-    line-height: 8px;
-    font-size: clamp(16px, 20px, 34px);
+    padding-top: 20px;
+    padding-bottom: 20px;
   }

@@ -189,7 +189,7 @@
         border: thin solid rgba(255, 255, 255, 0.3);
       }
 
-      .image-temp p {
+      .image-temp h3 {
         font-size: clamp(24px, 2vw, 40px);
         padding-left: 10px;
       }
@@ -197,8 +197,9 @@
       figcaption {
         color: white;
         font-family: 'Nunito', sans-serif;
-        font-size: clamp(14px, 1.5vw, 24px);
+        font-size: clamp(14px, 20px, 24px);
         white-space: nowrap;
+        padding-top: 20px;
       }
     
       .image-temp {
@@ -207,10 +208,24 @@
         align-items: center;
       }
 
+      .image-temp h3 {
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 300;
+      }
+
+      .information-weather h3 {
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        line-height: 2px;
+        padding-top: 25px;
+        font-size: clamp(14px, 20px, 24px);
+        font-weight: 400;
+      }
+
       .information-weather {
-        line-height: 8px;
-        padding-top: 0.8em;
-        font-size: clamp(14px, 1.5vw, 24px);
+        padding: 0;
+        margin-top: 10px;
       }
 }
 
