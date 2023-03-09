@@ -42,5 +42,4 @@ async function displayWeatherInfo() {
     weatherInfo.insertAdjacentHTML('beforeend', weatherCard);
   }
 }
-
 displayWeatherInfo();

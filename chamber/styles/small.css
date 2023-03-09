@@ -702,8 +702,6 @@ section a {
     border: thin solid rgba(255, 255, 255, 0.3);
   }
 
-  /* This is a single-line comment */
-
   .image-temp img {
     width: 40%;
   }

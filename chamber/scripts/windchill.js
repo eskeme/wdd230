@@ -21,6 +21,8 @@ async function apiFetch() {
 
 apiFetch();
 
+
+
 function displayResults(weatherData) {
   currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}&deg;C</strong>`;
   const description = weatherData.weather[0].description
