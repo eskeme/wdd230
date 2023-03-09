@@ -208,7 +208,7 @@
         align-items: center;
       }
 
-      .image-temp h3 {
+      #current-temp {
         color: white;
         font-family: 'Nunito', sans-serif;
         font-weight: 300;
