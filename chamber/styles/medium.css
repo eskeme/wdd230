@@ -190,14 +190,15 @@
       }
 
       .image-temp p {
-        font-size: 24px;
+        font-size: clamp(24px, 2vw, 40px);
         padding-left: 10px;
       }
       
       figcaption {
         color: white;
         font-family: 'Nunito', sans-serif;
-        font-size: clamp(14px, 1.5vw, 18px);
+        font-size: clamp(14px, 1.5vw, 24px);
+        white-space: nowrap;
       }
     
       .image-temp {
@@ -209,7 +210,7 @@
       .information-weather {
         line-height: 8px;
         padding-top: 0.8em;
-        font-size: clamp(14px, 1.5vw, 18px);
+        font-size: clamp(14px, 1.5vw, 24px);
       }
 }
 
