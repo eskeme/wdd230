@@ -17,11 +17,11 @@ function addNumbers() {
 // Step 3: Step 3: Using function declaration, define another function named addNumbers that gets the values of two HTML form controls with IDs of addend1 and addend2. Pass them to the add function
 document.getElementById('addNumbers').addEventListener('click', addNumbers);
 // Step 4: Assign the return value to an HTML form element with an ID of sum
-var subtract = function(number1, number2) {
+function subtract(number1, number2) {
     return number1 - number2;
     };
 // Step 5: Add a "click" event listener to the HTML button with an ID of addNumbers that calls the addNumbers function
-var subtractNumbers = function() {
+function subtractNumbers() {
     var minuend = parseInt(document.getElementById('minuend').value);
     var subtrahend = parseInt(document.getElementById('subtrahend').value);
     var difference = subtract(minuend, subtrahend);
@@ -30,22 +30,22 @@ var subtractNumbers = function() {
 // Step 6: Using function expressions, repeat Steps 1-5 with new functions named subtract and subtractNumbers and HTML form controls with IDs of minuend, subtrahend, difference and subtractNumbers
 document.getElementById('subtractNumbers').addEventListener('click', subtractNumbers);
 // Step 7: Using arrow functions, repeat Steps 1-5 with new functions named multiply and mulitplyNumbers and HTML form controls with IDs of factor1, factor2, product and multiplyNumbers
-var multiply = (number1, number2) => {
+function multiply(number1, number2) {
     return number1 * number2;
     };
 // Step 8: Using any of the three function declaration types, repeat Steps 1-5 with new functions named divide and divideNumbers and HTML form controls with IDs of dividend, divisor, quotient and divideNumbers
-var divide = function(number1, number2) {
+function divide(number1, number2) {
     return number1 / number2;
     };
 // Step 9: Test all of the mathematical functionality of the task3.html page.
-var multiplyNumbers = () => {
+function multiplyNumbers () {
     var factor1 = parseInt(document.getElementById('factor1').value);
     var factor2 = parseInt(document.getElementById('factor2').value);
     var product = multiply(factor1, factor2);
     document.getElementById('product').value = product;
     };
     
-    var divideNumbers = function() {
+    function divideNumbers() {
     var dividend = parseInt(document.getElementById('dividend').value);
     var divisor = parseInt(document.getElementById('divisor').value);
     var quotient = divide(dividend, divisor);
