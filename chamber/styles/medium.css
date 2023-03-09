@@ -188,6 +188,29 @@
         margin: 0;
         border: thin solid rgba(255, 255, 255, 0.3);
       }
+
+      .image-temp p {
+        font-size: 24px;
+        padding-left: 10px;
+      }
+      
+      figcaption {
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-size: clamp(14px, 1.5vw, 18px);
+      }
+    
+      .image-temp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .information-weather {
+        line-height: 8px;
+        padding-top: 0.8em;
+        font-size: clamp(14px, 1.5vw, 18px);
+      }
 }
 
 /* This is a single-line comment */

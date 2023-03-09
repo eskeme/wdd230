@@ -352,49 +352,24 @@ h1 span {
     position: relative;
     background-color: #1c3eb0;
     text-align: center;
-    font-size: 80%;
 }
 
 .weather h1 {
     color: yellow;
 }
 
-.image-weather {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-}
-
-.image-weather img {
-    position: relative;
-    width: 140px;
-    height: 140px;
-    padding: 10px;
-    margin-left: 10px;
-}
-
-.image-weather h1 {
-    color: white;
-    font-size: 60px;
-    position: relative;
-    width: 50%;
-}
 
 .weather h2 {
-    font-size: 24px;
     position: absolute;
     right: 30px;
     bottom: 75px;
 }
 
 .information-weather {
-    line-height: 8px;
     border-top: 2px solid rgba(255,255,255,0.3);
 }
 
 .weather p {
-    font-size: 20px;
     padding: 0;
     color: white;
 }
@@ -728,3 +703,29 @@ section a {
   }
 
   /* This is a single-line comment */
+
+  .image-temp img {
+    width: 40%;
+  }
+
+  .image-temp p {
+    font-size: 3rem;
+    padding-left: 10px;
+  }
+  
+  figcaption {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: clamp(24px, 1.5vw, 18px);
+  }
+
+  .image-temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .information-weather {
+    line-height: 12px;
+    font-size: clamp(24px, 1.5vw, 18px);
+  }
