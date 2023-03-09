@@ -718,13 +718,11 @@ section a {
     align-items: center;
   }
 
-  .information-weather h3 {
+  .information-weather h2 {
     font-family: 'Nunito', sans-serif;
     color: white;
-    padding-top: 0.8em;
     font-size: clamp(24px, 30px, 36px);
     font-weight: 400;
-    padding-top: 0.8px;
   }
 
   .information-weather {

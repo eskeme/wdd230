@@ -146,8 +146,9 @@
         padding-bottom: 20px;
       }
 
-      .information-weather h3 {
+      .information-weather h2 {
         font-size: 24px;
+        padding-top: 10px;
       }
       #current-temp {
         font-size: 40px;
@@ -157,4 +158,6 @@
       figcaption {
         font-size: 24px;
       }
+
+
 }
