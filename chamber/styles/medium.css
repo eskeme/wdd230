@@ -217,8 +217,7 @@
       .information-weather h2 {
         font-family: 'Nunito', sans-serif;
         color: white;
-        line-height: 2px;
-        padding-top: 10px;
+        padding-top: 0.2px;
         font-size: clamp(14px, 20px, 24px);
         font-weight: 400;
       }
