@@ -191,5 +191,8 @@
   .spotlight-business h3 {
     font-size: 1.2rem;
   }
-  
+
+  .contact-form {
+    width: 400px;
+}
 }

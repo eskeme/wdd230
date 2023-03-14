@@ -249,4 +249,30 @@
       .spotlight-business h3 {
         font-size: 1rem;
       }
+      .contact-main {
+        display: flex;
+        justify-content: center; /* horizontally center the child elements */
+        align-items: center; /* vertically center the child elements */
+        width: 90%;
+        padding: 10px;
+        margin: 0 auto;
+        border: thin solid rgba(0,0,0,0.3);
+      }
+      
+      /* add styles for the child elements */
+      .contact-main div {
+        margin: 10px;
+        padding: 10px;
+      }
+
+      .contact-form {
+        border: thin solid rgba(0,0,0,0.3);
+        width: 100%;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+      }
+
+      .contact-information {
+        font-family: 'Nunito', sans-serif;
+        text-align: left;
+      }
 }

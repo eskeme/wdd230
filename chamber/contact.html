@@ -32,11 +32,11 @@
             </div>
             <nav>
                 <ul id="primary-nav">
-                    <li class="join"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
-                    <li class="contact"><a href="contact.html">Contact</a></li>    
+                    <li class="join"><a href="#">Contact</a></li>    
                 </ul>
             </nav>
             <div id="date_today">
@@ -45,57 +45,46 @@
                 <p><span id="visits"></span></p>
         </div>
     </header>
-    <main>
-        <div class="index-main">
-            <div class="event">
-                <div class="event-content">
-                    <h1>Ribbon Cutting</h1>
-                <h2>💎The Diamond Shack</h2>
-                <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 P.M.</p>
-                <a href="#">more info...</a>
-            </div>
-            </div>
-            <div class="featured">
-                <picture>
-                    <source srcset="images/medium-hero.jpg" media="(min-width: 560px) and (max-width: 1023px)">
-                    <source srcset="images/large-hero.jpg" media="(min-width: 1023px)">
-                    <img src="images/small-hero.jpg" alt="This is the hero image for this week">
-                </picture>
-                <h1><span>Welcome to Catalunan Grande</span></h1>
-                    <button onclick="window.location.href='join.html'">Join the Chamber</button>          
-            </div>
-            <div class="right-column">
-                <div class="spotlight-business"></div></div>
-            <div class="weather">
-                <h1>Weather</h1>
-<figure>
-    <div class="image-temp">
-  <img src="placeholder.png" alt="" id="weather-icon">
-  <span id="current-temp"></span>
-</div>
-  <figcaption></figcaption>
-</figure>
-                <div class="information-weather">
-                    <h2>Wind Speed: <span id="wind-speed"></span></h2>
-                    <h2>Wind Chill:     <span id="windChill"></span></h2>
+        <main>
+            <div class="contact-main">
+                <div class="contact-left">
+                    <div class="contact-form">
+                        <h2>CONTACT FORM</h2>
+                        <form method="get" action="thankyou.html">
+                
+                            
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Name">
+                            
+                            
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Email Address">
+                            
+                            
+                            <label for="question">Questions/Concerns</label>
+                            <textarea id="question" name="question" required placeholder="Questions/Concerns"></textarea>
+                            
+                            <input type="submit" value="Submit" style="margin-top: 20px;">
+                          </form>
+                    </div>
+                <div class="map-location">
+
+                </div>
+                </div>
+                <div class="contact-information">
+                    <h2>Contact us</h2>
+                    <h3>Address</h3>
+                    <p>Catalunan Grande Chambers of Commerce<br>1234 Street Here Avenue<br>City Here, Country, 123456</p>
+                    <p>Phone</p>
+                    <h4>123-431-5692</h4>
+                    <p>Email</p>
+                    <h4>hereismyemail@email.com</h4>
+                    <div class="social-contact">
+                        <a href="https://www.facebook.com/" ><picture><img src="images/facebook.png" alt="Facebook Logo"></picture></a>
+                <a href="https://www.linkedin.com/feed/"><picture><img src="images/linkedin.png" alt="Linkedin Logo"></picture></a>
+                    </div>
                 </div>
             </div>
-            <div class="news-update">
-                <div class="news-content">
-                <h1>News Release</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in erat venenatis, venenatis velit sit amet, egestas enim. Nulla non porta felis, ut finibus ante. Nullam venenatis mauris id magna auctor, fermentum luctus massa porta. Integer blandit nunc ut mattis aliquam. Pellentesque vehicula libero sed dui vulputate aliquam. Suspendisse potenti. Cras eget risus non eros vestibulum venenatis id nec purus. Aliquam erat volutpat.</p>
-            </div>
-            </div>
-        <div class="join_here">
-            <div class="join-content">
-                <button onclick="window.location.href='join.html'">Join us!</button>
-            <p>
-                Discover how to join the chamber of commerce and how it will benefir your organization!
-                <!-- Write your comments here -->
-            </p>
-        </div>
-        </div>
-    </div>
     </main>
         <footer>
             <div class="main_footer">
@@ -137,8 +126,7 @@
                 <div class="copyright"><span id="copyright2"></span> Catalunan Grande Chambers of Commerce | Justine Norman Insong | WDD 230 Project | Last Modification: <span id="lastupdate2"></span>
             </div></div>      
                 </footer>
-    <script src="scripts/spotlight.js"></script>
-    <script src="scripts/windchill.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>

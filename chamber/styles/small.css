@@ -514,8 +514,18 @@ input[required] {
     border-color: red;
     border-radius: 5px; /* Example value, adjust as needed */
   }
+
+  textarea[required] {
+    border-color: red;
+    border-radius: 5px; /* Example value, adjust as needed */
+  }
   
   input[required]:valid {
+    border-color: green; /* Change border color to green when input is valid */
+  }
+
+
+  textarea[required]:valid {
     border-color: green; /* Change border color to green when input is valid */
   }
   
@@ -524,6 +534,13 @@ input[required] {
     color: red;
     margin-right: 5px;
   }
+
+  textarea[required]::before {
+    content: "*";
+    color: red;
+    margin-right: 5px;
+  }
+
 
   .directory-main h1 {
     color: black;
@@ -727,4 +744,21 @@ section a {
 
   .join-main {
     padding: 10px;
+  }
+
+  .contact-form h2 {
+    color: black;
+  }
+
+  .contact-main {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .contact-information {
+    text-align: center;
+  }
+
+  .social-contact img {
+    width: 40px;
+    padding-left: 5px;
   }
