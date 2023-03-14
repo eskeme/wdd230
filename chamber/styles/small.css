@@ -155,17 +155,20 @@ nav ul.open {
     grid-template-columns: auto;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     padding: 10px;
+    grid-gap: 10px;;
 }
 
 .index-main .event, .join_here, .weather, .news-update {
     border: 1px solid rgba(0,0,0,0.3);
     padding: 10px;
-    margin: 10px;
+}
+
+.event, .featured, .right-column, .weather {
+    margin-bottom: 10px;
 }
 
 .featured {
     border: 1px solid rgba(0,0,0,0.3);
-    margin: 10px;
 }
 
 .right-column div {
@@ -325,7 +328,6 @@ h1 span {
 
 .event h1 {
     color: yellow;
-    margin-top: 50px;
 }
 
 .event h2 {
@@ -372,7 +374,6 @@ h1 span {
     background-color: #1c3eb0;
     text-align: center;
     font-size: 80%;
-    padding-top: 40px;
 }
 
 .join_here button {
@@ -410,7 +411,7 @@ h1 span {
 .right-column {
     background-color: #1c3eb0;
     border: 1px solid rgba(0,0,0,0.3);
-    height: 99%;
+    height: 100%;
 }
 
 .spotlight1, .spotlight2, .spotlight3{
@@ -728,4 +729,12 @@ section a {
   .information-weather {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .event-content, .join-content, .news-content {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    flex-direction: column; /* stack elements vertically */
+    height: 100%; /* set height to full parent height */
   }

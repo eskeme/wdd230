@@ -12,7 +12,6 @@
     }
 
     .right-column div {
-        width: 50%;
         margin: 10px;
         height: 92%;
     }
@@ -89,20 +88,9 @@
         text-align: left;
     }
 
-    .news-update h1 {
-        margin-top: 60px;
-    }
-
-    .join_here button {
-        margin-top: 60px;
-    }
 
     .weather h2 {
         top: 180px;
-    }
-
-    .featured {
-        height: 300px;
     }
 
     .discover-main, .first-image, .second-image, .third-image, .fourth-image, .fifth-image {
@@ -118,10 +106,16 @@
         opacity: .5;
     }
 
+    .event, .featured, .right-column, .weather {
+      margin-bottom: 0px;
+  }
+
     .index-main .event, .join_here, .weather, .news-update, .join-main {
         border: 1px solid rgba(0,0,0,0.3);
-        padding: 10px;
-        margin: 10px;
+    }
+
+    .index-main {
+      margin-bottom: 10px;
     }
 
     .join-main {
@@ -225,5 +219,9 @@
       .information-weather {
         padding: 0;
         margin-top: 10px;
+      }
+
+      .index-main {
+        padding-bottom: 0px;
       }
 }
