@@ -7,7 +7,8 @@
         "location": "Kilometer 10, Catalunan Pequeno Highway",
         "service": "Auto Repair Shop",
         "website": "https://www.facebook.com/kmtenauto",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/KM%20TEN%20Auto%20Center.jpg"
+        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/KM%20TEN%20Auto%20Center.jpg",
+        "member_status": "gold"
         },
         {
         "business_name": "Kareha Autoworks Auto Repair Shop",
@@ -15,7 +16,8 @@
         "location": "Beside Davao Adventist Hospital, Km.7 Bangkal Mc Arthur Highway, Bangkal Street",
         "service": "Auto Repair Shop",
         "website": "https://kareha-autoworks-auto-repair-shop.business.site/",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Kareha%20Autoworks%20Auto%20Repair%20Shop.JPG"
+        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Kareha%20Autoworks%20Auto%20Repair%20Shop.JPG",
+        "member_status": "silver"
         },
         {
         "business_name": "Leandro's Specialties",
@@ -23,7 +25,8 @@
         "location": "247 F. Torres St, Poblacion District",
         "service": "Catering Service",
         "website": "https://www.facebook.com/leandroscatering",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Leandro's%20Specialties.jpg"
+        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Leandro's%20Specialties.jpg",
+        "member_status": "gold"
         },
         {
         "business_name": "Lou Catering Services",
@@ -31,7 +34,8 @@
         "location": "Purok 4 Sitio Kauswagan Baranggay",
         "service": "Catering Service",
         "website": "https://www.loucatering.com/",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Lou%20Catering%20Services.jpg"
+        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Lou%20Catering%20Services.jpg",
+        "member_status": "silver"
         },
         {
         "business_name": "Kentdell Plumbing and Electrical Services",
@@ -39,7 +43,8 @@
         "location": "Cosmos-Sangumay Sts., Phase 4-B, El Rio Vista Village, Poblacion District",
         "service": "Plumbing Services",
         "website": "https://kentdellplumbingandelectricalservices.business.site/?utm_source=gmb&utm_medium=referral",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Kentdell%20Plumbing%20and%20Electrical%20Services.jpg"
+        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Kentdell%20Plumbing%20and%20Electrical%20Services.jpg",
+        "member_status": "gold"
         },
         {
         "business_name": "Landor Septic Tank Excavator and Plumbing Services",
@@ -47,7 +52,8 @@
         "location": "37-D Trading Blvd, Poblacion District",
         "service": "Plumbing Services",
         "website": "https://davaoseptictank.com/",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Landor%20Septic%20Tank%20Excavator%20and%20Plumbing%20Services.jpg"
+        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Landor%20Septic%20Tank%20Excavator%20and%20Plumbing%20Services.jpg",
+        "member_status": "silver"
         },
         {
         "business_name": "BJR Computer Solutions",
@@ -55,7 +61,8 @@
         "location": "Unit 207, Goldwin Building, Elpidio Quirino Ave, Poblacion District",
         "service": "Computer Repair",
         "website": "https://www.facebook.com/profile.php?id=100087015864947",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/BJR%20Computer%20Solutions.jpg"
+        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/BJR%20Computer%20Solutions.jpg",
+        "member_status": "gold"
         },
         {
         "business_name": "FIXMYMAC",
@@ -63,7 +70,8 @@
         "location": "Plaza Del Carmen, Fixmymac, Stall #3, BO Obrero",
         "service": "Computer Repair",
         "website": "https://fixmymac.ph/",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/FIXMYMAC.jpg"
+        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/FIXMYMAC.jpg",
+        "member_status": "silver"
         },
         {
         "business_name": "Hub101 Computer Systems",
@@ -71,7 +79,8 @@
         "location": "Doña Aurora St, Tugbok",
         "service": "Computer Repair",
         "website": "https://www.facebook.com/Hub101Davao",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Hub101%20Computer%20Systems.jpg"
+        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Hub101%20Computer%20Systems.jpg",
+        "member_status": "gold"
         }
     ]
 }

@@ -69,3 +69,4 @@ if (localStorage.getItem('lastVisit')) {
   document.getElementById('visits').textContent = 'Welcome to the chamber website!';
 }
 
+

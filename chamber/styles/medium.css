@@ -11,14 +11,6 @@
         grid-column: 1 / span 3;
     }
 
-    .right-column div {
-        margin: 10px;
-        height: 92%;
-    }
-
-    .right-column p {
-        margin: auto;
-    }
 
     .index-main {
         display: grid;
@@ -223,5 +215,32 @@
 
       .index-main {
         padding-bottom: 0px;
+      }
+
+      .spotlight-business {
+        display: flex;
+        padding: 10px;
+        gap: 10px;
+      }
+      
+      .spotlight-business section {
+        flex: 1;
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 90%;
+        height: 100%;
+        padding-bottom: 60px;
+        margin: 0 auto;
+        background-color: #163391;
+      }
+      
+      .spotlight-business img {
+        width: 100%;
+        object-fit: cover;
+      }
+      
+      .spotlight-business h2 {
+        margin: 10px;
+        margin-top: 20px;
       }
 }

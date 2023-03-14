@@ -170,12 +170,6 @@ nav ul.open {
 .featured {
     border: 1px solid rgba(0,0,0,0.3);
 }
-
-.right-column div {
-    padding: 10px;
-    height: 50%;
-}
-
 .spotlight3, .join_here {
     display: none;
 }
@@ -421,32 +415,9 @@ h1 span {
     font-size: 80%;
 }
 
-.right-column h1 {
-    color: yellow;
-}
-
-.right-column h2 {
-    color: white;
-    font-family: 'Nunito', sans-serif;
-    font-style: italic;
-    padding-bottom: 10px;
-    border-bottom: 2px solid rgba(255,255,255,0.3);
-    font-size: 20px;
-}
-
-.right-column p {
-    color: white;
-    font-family: 'Nunito', sans-serif;
-    padding-bottom: 10px;
-}
-
 .contact_spot1 {
     line-height: 10px;
     width: 100%;
-}
-
-.right-column img {
-    width: 30%;
 }
 
 .discover-main, .first-image, .second-image, .third-image, .fourth-image, .fifth-image {
@@ -731,10 +702,24 @@ section a {
     padding-bottom: 20px;
   }
 
-  .event-content, .join-content, .news-content {
+  .event-content, .join-content, .news-content, .weather {
     display: flex;
     justify-content: center; /* center horizontally */
     align-items: center; /* center vertically */
     flex-direction: column; /* stack elements vertically */
     height: 100%; /* set height to full parent height */
+  }
+
+  .spotlight-business img {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    padding-bottom: 20px;
+  }
+
+  .spotlight-business h3 {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+  }
+
+  .spotlight-business section:nth-child(3) {
+    display: none;
   }

@@ -2,11 +2,11 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Davao%20City&units=metric&appid=34e197cd5ba229b3c1bfe4f44829a8a8';
+const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=Davao%20City&units=metric&appid=34e197cd5ba229b3c1bfe4f44829a8a8';
 
 async function apiFetch() {
   try {
-    const response = await fetch(url);
+    const response = await fetch(weatherUrl);
     if (response.ok) {
       const data = await response.json();
       console.log(data); // this is for testing the call
