@@ -189,5 +189,8 @@
     display: block;
   }
 
+  .spotlight-business h3 {
+    font-size: 1.2rem;
+  }
   
 }

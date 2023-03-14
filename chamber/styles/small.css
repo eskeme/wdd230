@@ -718,6 +718,7 @@ section a {
   .spotlight-business h3 {
     font-family: 'Nunito', sans-serif;
     color: white;
+    font-size: 1rem;
   }
 
   .spotlight-business section:nth-child(3) {
