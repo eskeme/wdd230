@@ -225,7 +225,7 @@
       }
       
       .spotlight-business section {
-        flex: 10px;
+        flex: 1;
         padding-left: 40px;
         padding-right: 40px;
         width: 90%;
@@ -247,6 +247,6 @@
       }
 
       .spotlight-business h3 {
-        font-size: 1.5rem;
+        font-size: 1rem;
       }
 }

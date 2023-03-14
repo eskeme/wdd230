@@ -182,7 +182,6 @@
 
   .spotlight-business {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 1;
   }
   
   .spotlight-business section:nth-child(3) {
