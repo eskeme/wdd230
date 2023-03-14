@@ -723,3 +723,7 @@ section a {
   .spotlight-business section:nth-child(3) {
     display: none;
   }
+
+  .join-main {
+    padding: 10px;
+  }
