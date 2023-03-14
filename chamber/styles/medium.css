@@ -225,7 +225,7 @@
       }
       
       .spotlight-business section {
-        flex: 1;
+        flex: 10px;
         padding-left: 40px;
         padding-right: 40px;
         width: 90%;
