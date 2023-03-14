@@ -762,3 +762,7 @@ section a {
     width: 40px;
     padding-left: 5px;
   }
+
+  .contact-information h2 {
+    color: black;
+  }
