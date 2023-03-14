@@ -58,7 +58,7 @@ let HowLong = document.createElement("dt");
 HowLong.textContent = place.place;
 let cities = document.createElement("dd");
 cities.textContent = place.length;
-// Step 9: Append the HTML <dt> and <dd> elements created above to the HTML <dl> element with an ID of places-lived
+// Step 9:Append the HTML <dt> and <dd> elements created above to the HTML <dl> element with an ID of places-lived
 placesLivedList.appendChild(HowLong);
 placesLivedList.appendChild(cities);
 });
