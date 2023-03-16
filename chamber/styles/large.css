@@ -195,4 +195,8 @@
   .contact-form {
     width: 400px;
 }
+
+.featured h1 {
+    font-size: 3rem;
+}
 }
