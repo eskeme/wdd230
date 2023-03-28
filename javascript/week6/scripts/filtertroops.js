@@ -13,7 +13,7 @@ airCheckbox.addEventListener('change', () => {
   }
 });
 
-const url = '../data/troops.json';
+const url = 'https://raw.githubusercontent.com/eskeme/wdd230/main/javascript/week6/data/troops.json';
 
 async function getTroopData() {
   const response = await fetch(url);
