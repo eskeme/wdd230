@@ -6,7 +6,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; /* Center the background image */
+  height: 100vh;
 }
 
 
