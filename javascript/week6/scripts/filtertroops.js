@@ -56,6 +56,7 @@ const displayTroops = (troops) => {
     filteredTroops.forEach((troop) => {
       let card = document.createElement('section');
       let imageWrapper = document.createElement('div');
+      imageWrapper.classList.add('image-wrapper');
       let infoWrapper = document.createElement('div');
       let h2 = document.createElement('h2');
       let p = document.createElement('p');

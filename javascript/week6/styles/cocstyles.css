@@ -90,7 +90,7 @@ label {
 }
 
 #troops-container {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -126,9 +126,17 @@ div {
   flex: 1;
 }
 
+.image-wrapper {
+    display: flex; /* Set the display property to flex */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+
+}
+
+
 @media only screen and (max-width: 1300px) {
   #troops-container {
-    width: 60%;
+    width: 70%;
   }
 }
 
