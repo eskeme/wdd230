@@ -399,6 +399,7 @@ div label, div input {
 
   #map {
 	height: 400px;
+	border: thin solid #3dcf58;
   }
 
   .about-us {
