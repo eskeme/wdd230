@@ -1,5 +1,4 @@
 const currentTemp = document.querySelector("#current-temp");
-const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("#caption-desc");
 const forecastDays = document.querySelector(".weather-card__forecast-days");
 
@@ -36,14 +35,22 @@ function displayCurrent(weatherData) {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
   captionDesc.textContent = description;
-  weatherIcon.setAttribute(
+
+  // Create the image element
+  const iconImg = document.createElement("img");
+
+  // Set the src and alt attributes
+  iconImg.setAttribute(
     "src",
     `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`
   );
-  weatherIcon.setAttribute(
+  iconImg.setAttribute(
     "alt",
     `This is an icon image of ${weatherData.weather[0].description}`
   );
+
+  // Append the image to the weatherIcon element
+  currentTemp.parentNode.insertBefore(iconImg, currentTemp.nextSibling);
 }
 
 function displayForecast(forecastData) {

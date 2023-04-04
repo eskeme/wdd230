@@ -402,6 +402,10 @@ div label, div input {
 	border: thin solid #3dcf58;
   }
 
+  #caption-desc {
+	font-weight: bold;
+  }
+
   .about-us {
 	width: 90%;
 	margin: 0 auto;

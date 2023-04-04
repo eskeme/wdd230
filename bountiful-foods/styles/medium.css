@@ -183,7 +183,17 @@
         text-decoration: none;
         width: 100%;
       }
-    
+
+      .weather-card img {
+        padding: 0;
+        margin: 0 auto;
+      }
+
+      .weather-card__current-temp {
+        display: flex;
+        flex-direction: column;
+      }
+
       header.show-menu nav.navigation a:hover {
         background-color: #3dcf58;
       }
@@ -253,6 +263,8 @@
     #hamburger-button.open span:nth-child(2) {
         display: block;
     }
+    
+        
     
 
     @media screen and (max-width: 375px) {

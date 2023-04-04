@@ -5,7 +5,7 @@ const drinkCountDisplay = document.getElementById("drink-count");
 let drinkCount = localStorage.getItem("drinkCount") || 0;
 
 // Update the drink count display
-drinkCountDisplay.textContent = `Total drinks submitted: ${drinkCount}`;
+drinkCountDisplay.textContent = `${drinkCount}`;
 
 // Handle form submission
 form.addEventListener("submit", (event) => {
@@ -17,7 +17,7 @@ form.addEventListener("submit", (event) => {
   localStorage.setItem("drinkCount", drinkCount);
 
   // Update the drink count display
-  drinkCountDisplay.textContent = `Total drinks submitted: ${drinkCount}`;
+  drinkCountDisplay.textContent = `${drinkCount}`;
 
   // Display the order details and nutrition information as before
   // ...
