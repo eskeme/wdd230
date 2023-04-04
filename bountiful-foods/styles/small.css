@@ -174,8 +174,10 @@ nav {
 .copyright {
 	font-family: 'Nunito', Arial, Helvetica, sans-serif;
 	text-align: center;
-	margin: 0;
+	margin: 0 auto;
 	padding-bottom: 1px;
+	border-top: thin solid #3dcf58;
+	width: 90%;
 }
   
   /* Style the separator pipe in the copyright claim */
