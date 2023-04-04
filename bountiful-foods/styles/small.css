@@ -294,11 +294,12 @@ nav {
   }
 
   .cta button {
-	background-color: #3dcf58;
+	background-color: #ffa626;
 	padding: 10px 20px 10px 20px;
 	border: none;
 	font-weight: 400;
 	box-shadow: 0 4px 6px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.5);
+	border: 2px solid white;
 	width: 100%;
   }
 
