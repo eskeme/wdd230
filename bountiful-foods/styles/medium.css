@@ -1,5 +1,9 @@
 /* Small screens */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
+
+    .grid-container {
+        width: 90%;
+     }
 
     #secondary-nav {
         display: none;
@@ -267,7 +271,7 @@
         
     
 
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 650px) {
 
      .grid-container {
         width: 90%;
@@ -316,7 +320,6 @@
       .grid-item:nth-child(4) {
         grid-row: 4;
         grid-column: 1/ span 2;
-        margin-top: 20px;
       }
 
       
