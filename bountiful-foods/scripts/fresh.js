@@ -23,9 +23,6 @@ function populateFruitSelects(fruitData) {
   fruitSelects.forEach((select) => {
     // Add an empty option to the select element
     const emptyOption = document.createElement("option");
-    emptyOption.value = "";
-    emptyOption.textContent = "Select a fruit";
-    select.appendChild(emptyOption);
 
     // Add an option for each fruit in the data
     fruitData.forEach((fruit) => {
