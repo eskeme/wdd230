@@ -1,0 +1,322 @@
+/* Small screens */
+@media screen and (max-width: 800px) {
+
+    #secondary-nav {
+        display: none;
+      }
+
+    header {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .logo img {
+        display: none;
+    }
+
+    .logo p {
+        display: none;
+        margin-left: 100px;
+    }
+
+    .info h1 {
+        display: block;
+        margin-left: 90px;
+    }
+
+    .business-logo {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1;
+        border: 2px solid #217531;
+        padding: 20px;
+    }
+
+    .hamburger span {
+        display: block;
+        height: 10px;
+        width: 50px;
+        background: #fff;
+        margin: 5px auto;
+    }
+
+    .welcome {
+        margin-top: 0px;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* Hide navigation bar */
+    header nav.navigation {
+        display: none;
+    }
+
+    header {
+        height: 100px;
+        position: relative;
+    }
+
+    /* Show navigation bar on click */
+    header nav.navigation.show {
+        display: block;
+        position: absolute;
+        top: 80%;
+        left: 0;
+        width: 100%;
+        background-color: #53ff73;
+        text-align: center;
+    }
+
+    header nav.navigation.show a {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Nunito', Arial, Helvetica, sans-serif;
+        color: #000;
+        text-decoration: none;
+        width: 100%;
+    }
+
+    header nav.navigation.show a:hover {
+        background-color: #3dcf58;
+    }
+
+    .social-media {
+        margin-left: 20px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 10px;
+      }
+      
+      
+      .grid-item:nth-child(1) {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        padding: 5px;
+      }
+      
+    .weather-card__forecast {
+        display: none;
+    }
+
+    .weather-card {
+        display: block;
+        position: relative;
+        width: 80%;
+    }
+
+    .weather-card img {
+        width: 80px;
+    }
+
+      .grid-item:nth-child(2) {
+        grid-row: 1/2;
+        grid-column: 1/3;
+        background-image: url('../images/Carlsbad-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      
+      .grid-item:nth-child(3) {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      
+      .grid-item:nth-child(4) {
+        grid-row: 3/4;
+        grid-column: 1/3;
+      }
+
+      .footer-contain {
+        width: 90%;
+      }
+
+      header {
+        height: 100px;
+        position: relative;
+      }
+    
+      /* Hide navigation bar */
+      header nav.navigation {
+        display: none;
+      }
+
+      .fresh-form {
+        width: 80%;
+      }
+    
+      /* Show navigation bar when show-menu class is present */
+      header.show-menu nav.navigation {
+        display: block;
+        position: absolute;
+        top: 80%;
+        left: 0;
+        width: 100%;
+        background-color: #53ff73;
+        text-align: center;
+      }
+    
+      header.show-menu nav.navigation a {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Nunito', Arial, Helvetica, sans-serif;
+        color: #000;
+        text-decoration: none;
+        width: 100%;
+      }
+    
+      header.show-menu nav.navigation a:hover {
+        background-color: #3dcf58;
+      }
+    
+      /* Push down content when show-menu class is present */
+      header.show-menu .logo, header.show-menu .welcome, header.show-menu .grid-container {
+        transform: translateY(80%);
+      }
+
+    /* Show h1 centered */
+
+    /* Show social media icons below header */
+    nav button {
+        background-color: transparent;
+        border: 1px solid white;
+        font-size: 1.4rem;
+        color: #eee;
+        margin-top: 45px;
+        margin-left: -4px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: black;
+        background-color: #53ff73;
+        text-align: center;
+    }
+
+    .site a {
+        background-color: #3dcf58;
+    }
+    
+    
+    nav ul li a:hover {
+        background-color: rgba(61, 207, 88, 1);
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    nav ul.open {
+        display: block;
+    }
+    
+    #hamburger-button span:nth-child(1) {
+        display: block;
+    }
+    
+    #hamburger-button span:nth-child(2) {
+        display: none;
+    }
+    
+    #hamburger-button.open span:nth-child(1) {
+        display: none;
+    }
+    
+    #hamburger-button.open span:nth-child(2) {
+        display: block;
+    }
+    
+
+    @media screen and (max-width: 375px) {
+
+     .grid-container {
+        width: 90%;
+     }   
+        .social-media {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            margin-left: 20px;
+    }
+
+    .social-media img {
+        height: 30px;
+        margin-left: 5px;
+    }
+
+    .info p {
+        display: none;
+    }
+
+    .grid-container {
+        display: grid;
+      }
+      
+      .grid-item {
+        padding: 10px;
+      }
+      
+      .grid-item:nth-child(1) {
+        grid-row: 2;
+        grid-column: 1/ span 2;
+      }
+      
+      .grid-item:nth-child(2) {
+        grid-row: 1;
+        grid-column: 1/ span 2;
+      }
+      
+      .grid-item:nth-child(3) {
+        grid-row: 3;
+        grid-column: 1/ span 2;
+        height: 150px;
+      }
+      
+      .grid-item:nth-child(4) {
+        grid-row: 4;
+        grid-column: 1/ span 2;
+        margin-top: 20px;
+      }
+
+      
+
+      footer {
+        text-align: center;
+      }
+      
+      .info1 h1 {
+        margin: 0;
+      }
+
+    }
+
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <link rel="icon" type="image/png" href="logo.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <button id="hamburger-button"><span>&#9776;</span><span>&#9776;</span></button>
+            <img src="images/logo.png" alt="Business Logo">
+            <div class="info">
+                <h1>Bountiful Foods</h1>
+                <p>123 Main St, Anytown USA<br>Phone: (555) 123-4567</p>
+            </div>
+        </div>
+        <ul id="secondary-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="site"><a href="#">Fresh</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+    </header>
+    <nav>
+        <ul id="primary-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="site"><a href="#">Fresh</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="welcome">
+        <p>Welcome to our website! Today is <strong id="date"></strong>.</p>
+    </div>
+    <main>
+        <div class="fresh-form">
+            <h2>Build Your Own Specialty Drink</h2>
+            <form id="drink-form">
+              <div>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="fruits">
+                <div>
+                <label for="fruit1">Fruit 1:</label>
+                <select id="fruit1" name="fruit1" required></select>
+                </div><div>
+                <label for="fruit2">Fruit 2:</label>
+                <select id="fruit2" name="fruit2" required></select>
+            </div><div>
+                <label for="fruit3">Fruit 3:</label>
+                <select id="fruit3" name="fruit3" required></select></div>
+              </div>
+              <div>
+                <label for="instructions">Special Instructions:</label>
+                <textarea id="instructions" name="instructions"></textarea>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+            <div id="output-area"></div>
+          </div>  
+    </main>
+      <footer>
+        <div class="footer-contain">
+            <div class="logo1">
+                <img src="images/logo.png" alt="Business Logo">
+                <div class="info1">
+                    <h1>Bountiful Foods</h1>
+                    <p>123 Main St, Anytown USA<br>Phone: (555) 123-4567</p>
+                </div>
+            </div>
+        <div class="contact-info">
+          <p>Email: your-email@example.com</p>
+          <p>Phone: 123-456-7890</p>
+        </div>
+    </div>
+        <div class="copyright">
+          <p>&copy; Bountiful Foods | Last updated: <span id="last-updated"></span></p>
+        </div>
+      </footer>
+      <script src="scripts/fresh.js"></script>
+    <script src="scripts/welcomemessage.js"></script>
+</body>
+</html>

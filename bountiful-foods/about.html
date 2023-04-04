@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <link rel="icon" type="image/png" href="logo.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <button id="hamburger-button"><span>&#9776;</span><span>&#9776;</span></button>
+            <img src="images/logo.png" alt="Business Logo">
+            <div class="info">
+                <h1>Bountiful Foods</h1>
+                <p>123 Main St, Anytown USA<br>Phone: (555) 123-4567</p>
+            </div>
+        </div>
+        <ul id="secondary-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li class="site"><a href="#">About Us</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+    </header>
+    <nav>
+        <ul id="primary-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li class="site"><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="welcome">
+        <p>Welcome to our website! Today is <strong id="date"></strong>.</p>
+    </div>
+    <main>
+        <div class="about-us">
+        <section id="history">
+          <h1>Our History</h1>
+          <p>Our business was born out of a passion for healthy living and natural ingredients. Our founder, Jane, had struggled for years to find quality products that were both nourishing and delicious. After countless disappointments, she decided to take matters into her own hands and start creating her own healthy drinks at home.</p>
+            <p>Over time, Jane's creations gained a following among her friends and family, and soon she began selling her juices and smoothies at local farmers markets. As word spread about the incredible taste and health benefits of her products, demand grew and Jane decided to open her own business. Today, our company continues to offer the same high-quality, all-natural products that Jane first created in her own kitchen, with a focus on promoting wellness and healthy living in our community.</p>
+        </section>
+        <section id="contact">
+          <h1>Contact Us</h1>
+          <ul>
+            <li><strong>Address:</strong> 123 Main Street, Anytown, USA</li>
+            <li><strong>Phone:</strong> (123) 456-7890</li>
+            <li><strong>Email:</strong> info@example.com</li>
+          </ul>
+          <h1>My Map</h1>
+          <div id="map"></div>
+        </section>
+    </div>
+      </main>
+    </main>
+      <footer>
+        <div class="footer-contain">
+            <div class="logo1">
+                <img src="images/logo.png" alt="Business Logo">
+                <div class="info1">
+                    <h1>Bountiful Foods</h1>
+                    <p>123 Main St, Anytown USA<br>Phone: (555) 123-4567</p>
+                </div>
+            </div>
+        <div class="contact-info">
+          <p>Email: your-email@example.com</p>
+          <p>Phone: 123-456-7890</p>
+        </div>
+    </div>
+        <div class="copyright">
+          <p>&copy; Bountiful Foods | Last updated: <span id="last-updated"></span></p>
+        </div>
+      </footer>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7PC1BDod4JQcuPcOqOGdjEfz9YFhQUKo&callback=initMap" async defer></script>
+      <script src="scripts/fresh.js"></script>
+    <script src="scripts/welcomemessage.js"></script>
+</body>
+</html>

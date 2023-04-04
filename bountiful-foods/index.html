@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <link rel="icon" type="image/png" href="logo.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <button id="hamburger-button"><span>&#9776;</span><span>&#9776;</span></button>
+            <img src="images/logo.png" alt="Business Logo">
+            <div class="info">
+                <h1>Bountiful Foods</h1>
+                <p>123 Main St, Anytown USA<br>Phone: (555) 123-4567</p>
+            </div>
+        </div>
+        <ul id="secondary-nav">
+            <li class="site"><a href="#">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+    </header>
+    <nav>
+        <ul id="primary-nav">
+            <li class="site"><a href="#">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="welcome">
+        <p>Welcome to our website! Today is <strong id="date"></strong>.</p>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="weather-card">
+                <div class="weather-card__current">
+                  <div class="weather-card__current-temp">
+                    <br>
+                    <span id="current-temp"></span>
+                  </div>
+                  <div class="weather-card__current-icon">
+                    <img id="weather-icon" alt="">
+                    <figcaption id="caption-desc"></figcaption>
+                  </div>
+                </div>
+                <div class="weather-card__forecast">
+                  <h3>3-Day Forecast</h3>
+                  <div class="weather-card__forecast-days"></div>
+                </div>
+              </div>
+              
+        </div>
+        <div class="grid-item">
+            <div class="featured">
+                <p>La Jolla is a beautiful coastal community located in San Diego County, California. It's known for its rugged coastline, picturesque beaches, and upscale village area with trendy shops and restaurants. La Jolla Cove is a popular spot for snorkeling, kayaking, and swimming with its clear waters and abundant marine life. The area is also home to the Scripps Institution of Oceanography, a world-renowned center for marine research and education.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="cta">
+                <button onclick="window.location.href='fresh.html'">Make Fruit Drink Mix</button>
+              </div>
+        </div>
+        <div class="grid-item">
+            <div class="count">
+            <h2 id="drink-count"></h2>
+        </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-contain">
+            <div class="logo1">
+                <img src="images/logo.png" alt="Business Logo">
+                <div class="info1">
+                    <h1>Bountiful Foods</h1>
+                    <p>123 Main St, Anytown USA<br>Phone: (555) 123-4567</p>
+                </div>
+            </div>
+        <div class="contact-info">
+          <p>Email: your-email@example.com</p>
+          <p>Phone: 123-456-7890</p>
+        </div>
+    </div>
+        <div class="copyright">
+          <p>&copy; Bountiful Foods | Last updated: <span id="last-updated"></span></p>
+        </div>
+      </footer>
+      <script src="scripts/drinkcount.js"></script>
+    <script src="scripts/welcomemessage.js"></script>
+    <script src="scripts/weathercard.js"></script>
+</body>
+</html>
