@@ -345,6 +345,10 @@ form {
 	font-family: 'Nunito', Arial, Helvetica, sans-serif;
 }
 
+.weather-card__forecast h1 {
+	font-size: 18px;
+}
+
 .fresh-form button {
     display: block;
     background-color: #3dcf58;
